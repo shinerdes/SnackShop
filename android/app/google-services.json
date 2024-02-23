@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "748680012359",
+    "firebase_url": "https://snack-shop-67138-default-rtdb.firebaseio.com",
+    "project_id": "snack-shop-67138",
+    "storage_bucket": "snack-shop-67138.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748680012359:android:a240476e10c41747880762",
+        "android_client_info": {
+          "package_name": "com.example.snack_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJkyPsvlW12lFtoEUtwP7PvELIo6qbWbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
