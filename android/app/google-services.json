@@ -13,7 +13,12 @@
           "package_name": "com.example.snack_shop"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "748680012359-rlas4ooq1b5rn88tv5hci44gl17rm946.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAJkyPsvlW12lFtoEUtwP7PvELIo6qbWbQ"
@@ -21,7 +26,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748680012359-rlas4ooq1b5rn88tv5hci44gl17rm946.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "748680012359-mgirl7uji4imp1kk8n5j96aqisk54c6p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.snackShop"
+              }
+            }
+          ]
         }
       }
     }

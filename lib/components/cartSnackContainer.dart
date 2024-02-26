@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 class CartSnackContainer extends StatefulWidget {
@@ -27,21 +28,24 @@ class _CartSnackContainerState extends State<CartSnackContainer> {
       padding: const EdgeInsets.all(5),
       child: Row(children: [
         Image.asset('assets/images/${widget.image}.png',
-            width: 125, height: 150, fit: BoxFit.cover),
+            width: 125, height: 125, fit: BoxFit.cover),
         Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              padding: const EdgeInsets.all(8),
-              child: Text(
+              padding: const EdgeInsets.all(4),
+              child: AutoSizeText(
                 widget.name,
                 style:
-                    const TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                    const TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
+                minFontSize: 10,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
             ),
             Container(
-              padding: const EdgeInsets.all(8),
+              padding: const EdgeInsets.all(4),
               child: Text(
                 '${widget.price.toString()}원',
                 style:

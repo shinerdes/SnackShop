@@ -135,9 +135,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                           _showdialog(context);
                         }
 
-                        // setState(() {
-                        //   showSpinner = false;
-                        // });
                       } catch (e) {
                         print(e);
                       }

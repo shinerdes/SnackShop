@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:snack_shop/screens/snack_detail_screen.dart';
 
@@ -43,9 +44,12 @@ class SnackMenuContainer extends StatelessWidget {
           ),
           Container(
             padding: const EdgeInsets.all(4),
-            child: Text(
+            child: AutoSizeText(
               name,
-              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
+              minFontSize: 10,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
             ),
           ),
           Container(

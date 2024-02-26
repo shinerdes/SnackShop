@@ -1,9 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
+import 'package:snack_shop/components/rounde_icon_button.dart';
 import 'package:snack_shop/components/rounded_button.dart';
 import 'package:snack_shop/constants.dart';
 import 'package:snack_shop/screens/tab_bar_screen.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:firebase_database/firebase_database.dart';
 
 class LoginScreen extends StatefulWidget {
   static const String id = 'login_screen';
@@ -121,8 +124,6 @@ class _LoginScreenState extends State<LoginScreen> {
                             // ignore: use_build_context_synchronously
                             _showdialog(context);
                           }
-                          //Navigator.pushNamed(context, HomeScreen.id);
-                          //Navigator.pushNamed(context, HomeScreen.id);
 
                           setState(() {
                             showSpinner = false;
@@ -133,6 +134,32 @@ class _LoginScreenState extends State<LoginScreen> {
                       },
                       title: 'Log In',
                       colour: Colors.lightBlueAccent),
+                  IconRoundedButton(
+                    onPressed: () async {
+                      var googleUser = await signInWithGoogle();
+
+                      if (googleUser != null) {
+                        // db filter
+
+                        var emailCheck = await FirebaseDatabase.instance
+                            .ref()
+                            .child(FirebaseAuth.instance.currentUser!.uid)
+                            .get();
+
+                        if (emailCheck.exists == false) {
+                          FirebaseDatabase.instance
+                              .ref()
+                              .child(FirebaseAuth.instance.currentUser!.uid)
+                              .set({"email": googleUser.user!.email});
+                        }
+
+                        Navigator.pushNamedAndRemoveUntil(
+                            context, TabBarScreen.id, (route) => false);
+                      }
+                    },
+                    title: "Google",
+                    colour: Colors.blueGrey,
+                  ),
                 ],
               ),
             ),
@@ -181,4 +208,28 @@ Future<dynamic> _showdialog2(BuildContext context) {
       ],
     ),
   );
+}
+
+Future<UserCredential?> signInWithGoogle() async {
+  // Trigger the authentication flow
+
+  final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+
+  // Obtain the auth details from the request
+  final GoogleSignInAuthentication? googleAuth =
+      await googleUser?.authentication;
+
+  if (googleUser != null) {
+    final credential = GoogleAuthProvider.credential(
+      accessToken: googleAuth?.accessToken,
+      idToken: googleAuth?.idToken,
+    );
+
+    // Once signed in, return the UserCredential
+    return await FirebaseAuth.instance.signInWithCredential(credential);
+  } else {
+    return null;
+  }
+
+  // Create a new credential
 }

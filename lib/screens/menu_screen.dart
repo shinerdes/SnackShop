@@ -51,7 +51,7 @@ class _MenuScreen extends State<MenuScreen> {
                 itemCount: snackDataList.length,
 
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2, childAspectRatio: 0.85),
+                    crossAxisCount: 2, childAspectRatio: 0.8),
                 // Generate 100 widgets that display their index in the List.
                 itemBuilder: (context, index) {
                   return SnackMenuContainer(
