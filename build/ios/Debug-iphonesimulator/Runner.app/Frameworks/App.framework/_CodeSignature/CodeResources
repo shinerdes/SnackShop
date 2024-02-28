@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		4NqxzWXUEiyjP0BfiKjPXOlUdi8=
+		6v+Lg6qH7RKowU5mv6vLqrQUURc=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		B9naTYSDUaAQ6EIAgK/40UzBcY8=
+		H5vWw1yxYwvOLTbdXSj7SaOWb/w=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,11 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		KS/mGlHP5h/qhjhN+P1rXVrqvUw=
+		RzM6nZR2vNoxKPd6z98HU+Ld9pc=
+		</data>
+		<key>flutter_assets/assets/images/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
 		</data>
 		<key>flutter_assets/assets/images/Jjolboksnack_BBQ_Flavor.png</key>
 		<data>
@@ -40,9 +44,17 @@
 		<data>
 		ClQSVG9PWkVHpAI+H24VPlRg8Rw=
 		</data>
+		<key>flutter_assets/assets/images/google.png</key>
+		<data>
+		kglgymsk43hsT+DPrkoqjqnjmYA=
+		</data>
 		<key>flutter_assets/assets/images/indianbab.png</key>
 		<data>
 		tEJD0V4S33Aqet0vP8rZQJnU59s=
+		</data>
+		<key>flutter_assets/assets/images/kakao.png</key>
+		<data>
+		NOnqeD3hHQYTzZoa153GQ7+H0Z0=
 		</data>
 		<key>flutter_assets/assets/images/kkulkkwabaegi.png</key>
 		<data>
@@ -70,7 +82,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		2MSvMJ/dtH0TddUVhhg99UiqDzQ=
+		7PoQGvISdj7rG2Kn71MSzTqJ2X4=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -91,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			90BBUyVYQktqTj+3+JF49T4nB6LcB1GJeboVkt7ExtU=
+			1+CjFV0EnAdNKA4Fs0389fJiT25tu1qYyDTuWuav9RI=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hs7eUx4oL84Y29sQ/jDkLdLYgvR55SGQzPAfWjMaoJg=
+			u3fS4Pz+4r7/hieHhuputHBnOEOi/75d27MnWPB5GkU=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -112,7 +124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XZ85fNu2JFmUqhxl7ZFTW8EAGOLZlbvW+fAbkJqax7c=
+			rew79lQdHj2ZFN2yF8HgFBQBxj7nzLt2fBXsPkSR+Uw=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/Jjolboksnack_BBQ_Flavor.png</key>
@@ -143,11 +155,25 @@
 			2ZzP5sYGguTBqmIMCLpWeskGT+sLo+IVHIPc+MF2+IU=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/google.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UQGGXmxrjTlE8F0AbM/Vol+1SMHvlTEOlVKYqH7SCLo=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/indianbab.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			w8MrYnOv4/NEMgl9l+MKObtm85fcDqjs2+8DokhrAgc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/kakao.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E0wkylmsRFeXbGep+z9La5NJVX5wxhVKKihv/ytN3aQ=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/kkulkkwabaegi.png</key>
@@ -196,7 +222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5P8TAxGmnZygfwSR/CNBhy+L2E4trK0H2sonHrOPE/s=
+			s/5yuxFlyhvTM5xSIvu9x8c87z+m0FTqgxrTXN4qID8=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

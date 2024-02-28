@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 class IconRoundedButton extends StatelessWidget {
   const IconRoundedButton(
       {super.key,
-      this.icon = Icons.abc,
+      this.icon = "",
       this.colour = Colors.black,
       required this.onPressed,
       this.title = ""});
 
-  final IconData icon;
+  final String icon;
   final Color colour;
   final String title;
   final Function onPressed;
@@ -30,8 +30,7 @@ class IconRoundedButton extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('assets/images/google.png',
-                  width: 30, height: 30, fit: BoxFit.cover),
+              Image.asset(icon, width: 30, height: 30, fit: BoxFit.cover),
               Text(
                 title,
                 style: const TextStyle(

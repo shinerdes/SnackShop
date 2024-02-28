@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 import 'package:snack_shop/firebase_options.dart';
 
 import 'package:snack_shop/screens/login_screen.dart';
@@ -12,6 +13,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  KakaoSdk.init(
+    nativeAppKey: 'ff36bb09c6fe6689f59fbf82586a2305',
   );
   runApp(const MyApp());
 }

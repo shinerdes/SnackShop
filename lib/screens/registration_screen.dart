@@ -33,116 +33,125 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
           }
           _onBackPressed(context);
         },
-        child: Scaffold(
-          appBar: AppBar(
-            foregroundColor: Colors.black,
-            backgroundColor: Colors.white,
-            elevation: 0,
-            title: const Text(
-              'Registration',
-              style: TextStyle(
-                color: Colors.black,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+        child: GestureDetector(
+          onTap: () {
+            FocusScopeNode currentFocus = FocusScope.of(context);
+
+            if (!currentFocus.hasPrimaryFocus) {
+              currentFocus.unfocus();
+            }
+          },
+          child: Scaffold(
+            appBar: AppBar(
+              foregroundColor: Colors.black,
+              backgroundColor: Colors.white,
+              elevation: 0,
+              title: const Text(
+                'Registration',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
-          ),
-          backgroundColor: Colors.white,
-          body: ModalProgressHUD(
-            inAsyncCall: showSpinner,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24.0),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: <Widget>[
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Hero(
-                        tag: 'logo',
-                        child: SizedBox(
-                          height: 100.0,
-                          child: Image.asset('assets/images/snack.png',
-                              width: 100, height: 100, fit: BoxFit.cover),
+            backgroundColor: Colors.white,
+            body: ModalProgressHUD(
+              inAsyncCall: showSpinner,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: <Widget>[
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Hero(
+                          tag: 'logo',
+                          child: SizedBox(
+                            height: 100.0,
+                            child: Image.asset('assets/images/snack.png',
+                                width: 100, height: 100, fit: BoxFit.cover),
+                          ),
                         ),
-                      ),
-                      const Text(
-                        ' Snack ',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 40),
-                      ),
-                      const Text(
-                        'Shop',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 40),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(
-                    height: 48.0,
-                  ),
-                  TextField(
-                      keyboardType: TextInputType.emailAddress,
-                      textAlign: TextAlign.center,
-                      onChanged: (value) {
-                        email = value;
-                        //Do something with the user input.
-                      },
-                      decoration: kTextFieldDecoration.copyWith(
-                          hintText: 'Enter your email')),
-                  const SizedBox(
-                    height: 8.0,
-                  ),
-                  TextField(
-                      obscureText: true,
-                      textAlign: TextAlign.center,
-                      onChanged: (value) {
-                        password = value;
-                        //Do something with the user input.
-                      },
-                      decoration: kTextFieldDecoration.copyWith(
-                          hintText: 'Enter your password (at least 6 words)')),
-                  const SizedBox(
-                    height: 24.0,
-                  ),
-                  RoundedButton(
-                    onPressed: () async {
-                      try {
-                        setState(() {
-                          showSpinner = true;
-                        });
-
+                        const Text(
+                          ' Snack ',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 40),
+                        ),
+                        const Text(
+                          'Shop',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 40),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(
+                      height: 48.0,
+                    ),
+                    TextField(
+                        keyboardType: TextInputType.emailAddress,
+                        textAlign: TextAlign.center,
+                        onChanged: (value) {
+                          email = value;
+                          //Do something with the user input.
+                        },
+                        decoration: kTextFieldDecoration.copyWith(
+                            hintText: 'Enter your email')),
+                    const SizedBox(
+                      height: 8.0,
+                    ),
+                    TextField(
+                        obscureText: true,
+                        textAlign: TextAlign.center,
+                        onChanged: (value) {
+                          password = value;
+                          //Do something with the user input.
+                        },
+                        decoration: kTextFieldDecoration.copyWith(
+                            hintText:
+                                'Enter your password (at least 6 words)')),
+                    const SizedBox(
+                      height: 24.0,
+                    ),
+                    RoundedButton(
+                      onPressed: () async {
                         try {
-                          final newUser =
-                              await _auth.createUserWithEmailAndPassword(
-                                  email: email, password: password);
-
-                          FirebaseDatabase.instance
-                              .ref()
-                              .child(FirebaseAuth.instance.currentUser!.uid)
-                              .set({"email": email});
-
                           setState(() {
-                            showSpinner = false;
+                            showSpinner = true;
                           });
 
-                          Navigator.pushNamedAndRemoveUntil(
-                              context, TabBarScreen.id, (route) => false);
-                        } on FirebaseAuthException catch (e) {
-                          debugPrint("Exception : ${e.message}");
-                          debugPrint("Exception : ${e.code}");
-                          _showdialog(context);
-                        }
+                          try {
+                            final newUser =
+                                await _auth.createUserWithEmailAndPassword(
+                                    email: email, password: password);
 
-                      } catch (e) {
-                        print(e);
-                      }
-                    },
-                    title: 'Register',
-                    colour: Colors.blueAccent,
-                  ),
-                ],
+                            FirebaseDatabase.instance
+                                .ref()
+                                .child(FirebaseAuth.instance.currentUser!.uid)
+                                .set({"email": email});
+
+                            setState(() {
+                              showSpinner = false;
+                            });
+
+                            Navigator.pushNamedAndRemoveUntil(
+                                context, TabBarScreen.id, (route) => false);
+                          } on FirebaseAuthException catch (e) {
+                            debugPrint("Exception : ${e.message}");
+                            debugPrint("Exception : ${e.code}");
+                            _showdialog(context);
+                          }
+                        } catch (e) {
+                          print(e);
+                        }
+                      },
+                      title: 'Register',
+                      colour: Colors.blueAccent,
+                    ),
+                  ],
+                ),
               ),
             ),
           ),

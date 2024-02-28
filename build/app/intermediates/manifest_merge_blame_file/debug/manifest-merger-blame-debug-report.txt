@@ -5,7 +5,7 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="19"
+8        android:minSdkVersion="21"
 9        android:targetSdkVersion="33" />
 10    <!--
 11         The INTERNET permission is required for development. Specifically,
@@ -13,280 +13,365 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:18:5-66
-15-->/Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:18:22-64
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
-16-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:22-76
-17    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-17-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
-17-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
-18
-19    <application
-20        android:name="android.app.Application"
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/2bcc58666d1d067b2a00c7b23b7f0a80/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-24        android:label="snack_shop" >
-25        <activity
-26            android:name="com.example.snack_shop.MainActivity"
-27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-28            android:exported="true"
-29            android:hardwareAccelerated="true"
-30            android:launchMode="singleTop"
-31            android:theme="@style/LaunchTheme"
-32            android:windowSoftInputMode="adjustResize" >
+15-->/Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:30:5-66
+15-->/Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:30:22-64
+16
+17    <queries>
+17-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-24:15
+18        <package android:name="com.kakao.talk" />
+18-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-50
+18-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-47
+19        <package android:name="com.kakao.talk.alpha" />
+19-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-56
+19-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:11:18-53
+20        <package android:name="com.kakao.talk.sandbox" />
+20-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-58
+20-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-55
+21        <package android:name="com.kakao.onetalk" />
+21-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-53
+21-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-50
+22        <package android:name="com.locnall.KimGiSa" />
+22-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-55
+22-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-52
+23        <package android:name="com.lguplus.navi" />
+23-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-52
+23-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:15:18-49
+24
+25        <intent>
+25-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+26-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+27
+28            <category android:name="android.intent.category.BROWSABLE" />
+28-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+28-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+29
+30            <data android:scheme="https" />
+30-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+30-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+31        </intent>
+32    </queries>
 33
-34            <!--
-35                 Specifies an Android theme to apply to this Activity as soon as
-36                 the Android process has started. This theme is visible to the user
-37                 while the Flutter UI initializes. After that, this theme continues
-38                 to determine the Window background behind the Flutter UI.
-39            -->
-40            <meta-data
-41                android:name="io.flutter.embedding.android.NormalTheme"
-42                android:resource="@style/NormalTheme" />
-43
-44            <intent-filter>
-45                <action android:name="android.intent.action.MAIN" />
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-48            </intent-filter>
-49        </activity>
-50        <!--
-51             Don't delete the meta-data below.
-52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-53        -->
-54        <meta-data
-55            android:name="flutterEmbedding"
-56            android:value="2" />
-57
-58        <service
-58-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-59            android:name="com.google.firebase.components.ComponentDiscoveryService"
-59-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
-60            android:directBootAware="true"
-60-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
-61            android:exported="false" >
-61-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:68:13-37
-62            <meta-data
-62-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-63-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
-64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
-65            <meta-data
-65-->[:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-66-->[:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
-67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
-68            <meta-data
-68-->[:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-69-->[:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
-70                android:value="com.google.firebase.components.ComponentRegistrar" />
-70-->[:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
-71            <meta-data
-71-->[:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-72                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-72-->[:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
-73                android:value="com.google.firebase.components.ComponentRegistrar" />
-73-->[:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
-74            <meta-data
-74-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
-75                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-75-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:70:17-109
-76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:71:17-82
-77            <meta-data
-77-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:30:13-32:85
-78                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
-78-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:31:17-118
-79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:32:17-82
-80            <meta-data
-80-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:33:13-35:85
-81                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-81-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:34:17-107
-82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:35:17-82
-83            <meta-data
-83-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
-84                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
-84-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:30:17-120
-85                android:value="com.google.firebase.components.ComponentRegistrar" />
-85-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:31:17-82
-86            <meta-data
-86-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
-87                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-87-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:33:17-109
-88                android:value="com.google.firebase.components.ComponentRegistrar" />
-88-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:34:17-82
-89            <meta-data
-89-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:25:13-27:85
-90                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
-90-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:26:17-120
-91                android:value="com.google.firebase.components.ComponentRegistrar" />
-91-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:27:17-82
-92            <meta-data
-92-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:28:13-30:85
-93                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
-93-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:29:17-117
-94                android:value="com.google.firebase.components.ComponentRegistrar" />
-94-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:30:17-82
-95            <meta-data
-95-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
-96                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-96-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
-97                android:value="com.google.firebase.components.ComponentRegistrar" />
-97-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
+34-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:22-76
+35    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+35-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+35-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+36
+37    <application
+38        android:name="android.app.Application"
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/578be22e03f3f9159468b1855ba89f47/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+42        android:label="snack_shop" >
+43        <activity
+44            android:name="com.example.snack_shop.MainActivity"
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46            android:exported="true"
+47            android:hardwareAccelerated="true"
+48            android:launchMode="singleTop"
+49            android:theme="@style/LaunchTheme"
+50            android:windowSoftInputMode="adjustResize" >
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+59                android:name="io.flutter.embedding.android.NormalTheme"
+60                android:resource="@style/NormalTheme" />
+61
+62            <intent-filter>
+63                <action android:name="android.intent.action.MAIN" />
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+66            </intent-filter>
+67        </activity>
+68        <activity
+69            android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity"
+70            android:exported="true"
+70-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-36
+71            android:launchMode="singleTask"
+71-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-44
+72            android:theme="@style/TransparentCompat" >
+72-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-53
+73            <intent-filter android:label="flutter_web_auth" >
+74                <action android:name="android.intent.action.VIEW" />
+74-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+74-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
+76-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+77-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+78
+79                <!-- Redirect URI, "kakao${YOUR_NATIVE_APP_KEY}://oauth" 형식 -->
+80                <data
+80-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+81                    android:host="oauth"
+82                    android:scheme="kakaoff36bb09c6fe6689f59fbf82586a2305" />
+82-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+83            </intent-filter>
+84        </activity>
+85
+86        <!--
+87             Don't delete the meta-data below.
+88             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+89        -->
+90        <meta-data
+91            android:name="flutterEmbedding"
+92            android:value="2" />
+93
+94        <service
+94-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+95            android:name="com.google.firebase.components.ComponentDiscoveryService"
+95-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:68:13-37
 98            <meta-data
-98-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
-99                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-99-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+98-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+99-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 100                android:value="com.google.firebase.components.ComponentRegistrar" />
-100-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
-101        </service>
-102
-103        <activity
-103-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
-104            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-104-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:30:13-80
-105            android:excludeFromRecents="true"
-105-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:31:13-46
-106            android:exported="true"
-106-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:32:13-36
-107            android:launchMode="singleTask"
-107-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:33:13-44
-108            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-108-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:34:13-72
-109            <intent-filter>
-109-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:35:13-45:29
-110                <action android:name="android.intent.action.VIEW" />
-110-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
-110-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
-111
-112                <category android:name="android.intent.category.DEFAULT" />
-112-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
-112-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
-113                <category android:name="android.intent.category.BROWSABLE" />
-113-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
-113-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
-114
-115                <data
-115-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:41:17-44:51
-116                    android:host="firebase.auth"
-116-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:42:21-49
-117                    android:path="/"
-117-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:43:21-37
-118                    android:scheme="genericidp" />
-118-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:44:21-48
-119            </intent-filter>
-120        </activity>
-121        <activity
-121-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:47:9-64:20
-122            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-122-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:48:13-79
-123            android:excludeFromRecents="true"
-123-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:49:13-46
-124            android:exported="true"
-124-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:50:13-36
-125            android:launchMode="singleTask"
-125-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:51:13-44
-126            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-126-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:52:13-72
-127            <intent-filter>
-127-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:53:13-63:29
-128                <action android:name="android.intent.action.VIEW" />
-128-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
-128-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
-129
-130                <category android:name="android.intent.category.DEFAULT" />
-130-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
-130-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
-131                <category android:name="android.intent.category.BROWSABLE" />
-131-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
-131-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
-132
-133                <data
-133-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:41:17-44:51
-134                    android:host="firebase.auth"
-134-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:42:21-49
-135                    android:path="/"
-135-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:43:21-37
-136                    android:scheme="recaptcha" />
-136-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:44:21-48
-137            </intent-filter>
-138        </activity>
-139
-140        <provider
-140-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
-141            android:name="com.google.firebase.provider.FirebaseInitProvider"
-141-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-142            android:authorities="com.example.snack_shop.firebaseinitprovider"
-142-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
-143            android:directBootAware="true"
-143-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
-144            android:exported="false"
-144-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
-145            android:initOrder="100" />
-145-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
-146
-147        <uses-library
-147-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-148            android:name="androidx.window.extensions"
-148-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-149            android:required="false" />
-149-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-150        <uses-library
-150-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-151            android:name="androidx.window.sidecar"
-151-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-152            android:required="false" />
-152-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-153
-154        <activity
-154-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
-155            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-155-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
-156            android:excludeFromRecents="true"
-156-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
-157            android:exported="false"
-157-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
-158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-158-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
-159        <!--
-160            Service handling Google Sign-In user revocation. For apps that do not integrate with
-161            Google Sign-In, this service will never be started.
-162        -->
-163        <service
-163-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
-164            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-164-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
-165            android:exported="true"
-165-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
-166            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-166-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
-167            android:visibleToInstantApps="true" />
-167-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
-168
-169        <activity
-169-->[com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
-170            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-170-->[com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-171            android:exported="false"
-171-->[com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
-172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-172-->[com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
-173
-174        <meta-data
-174-->[com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
-175            android:name="com.google.android.gms.version"
-175-->[com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
-176            android:value="@integer/google_play_services_version" />
-176-->[com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
-177    </application>
-178
-179</manifest>
+100-->[:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+101            <meta-data
+101-->[:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+102-->[:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+104            <meta-data
+104-->[:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+105-->[:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+107            <meta-data
+107-->[:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+108-->[:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
+111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+111-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:70:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:71:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:30:13-32:85
+114                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+114-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:31:17-118
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:32:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:33:13-35:85
+117                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+117-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:34:17-107
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:35:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+120                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+120-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+123                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+123-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:25:13-27:85
+126                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+126-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:26:17-120
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:27:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:28:13-30:85
+129                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+129-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:29:17-117
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:30:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+132                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+132-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+135                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+135-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+137        </service>
+138
+139        <activity
+139-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-32:56
+140            android:name="com.kakao.sdk.flutter.TalkAuthCodeActivity"
+140-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-70
+141            android:configChanges="orientation|screenSize|keyboardHidden|uiMode"
+141-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-81
+142            android:exported="false"
+142-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
+143            android:launchMode="singleTask"
+143-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-44
+144            android:theme="@style/TransparentCompat" />
+144-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-53
+145        <activity
+145-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-42:56
+146            android:name="com.kakao.sdk.flutter.FollowChannelHandlerActivity"
+146-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-78
+147            android:exported="true"
+147-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-36
+148            android:launchMode="singleTask"
+148-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-44
+149            android:theme="@style/TransparentCompat" />
+149-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-53
+150        <activity
+150-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
+151            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+151-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:30:13-80
+152            android:excludeFromRecents="true"
+152-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:31:13-46
+153            android:exported="true"
+153-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:32:13-36
+154            android:launchMode="singleTask"
+154-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:33:13-44
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+155-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:34:13-72
+156            <intent-filter>
+156-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:35:13-45:29
+157                <action android:name="android.intent.action.VIEW" />
+157-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+157-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+158
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
+159-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
+160                <category android:name="android.intent.category.BROWSABLE" />
+160-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+160-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+161
+162                <data
+162-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+163                    android:host="firebase.auth"
+164                    android:path="/"
+165                    android:scheme="genericidp" />
+165-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+166            </intent-filter>
+167        </activity>
+168        <activity
+168-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:47:9-64:20
+169            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+169-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:48:13-79
+170            android:excludeFromRecents="true"
+170-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:49:13-46
+171            android:exported="true"
+171-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:50:13-36
+172            android:launchMode="singleTask"
+172-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:51:13-44
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+173-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:52:13-72
+174            <intent-filter>
+174-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:53:13-63:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+175-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+176
+177                <category android:name="android.intent.category.DEFAULT" />
+177-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
+177-->[com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
+178                <category android:name="android.intent.category.BROWSABLE" />
+178-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+178-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+179
+180                <data
+180-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+181                    android:host="firebase.auth"
+182                    android:path="/"
+183                    android:scheme="recaptcha" />
+183-->[:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+184            </intent-filter>
+185        </activity>
+186
+187        <uses-library
+187-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+188            android:name="androidx.window.extensions"
+188-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+189            android:required="false" />
+189-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+190        <uses-library
+190-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+191            android:name="androidx.window.sidecar"
+191-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+192            android:required="false" />
+192-->[androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+193
+194        <provider
+194-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+195            android:name="com.google.firebase.provider.FirebaseInitProvider"
+195-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+196            android:authorities="com.example.snack_shop.firebaseinitprovider"
+196-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+198            android:exported="false"
+198-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+199            android:initOrder="100" />
+199-->[com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+200
+201        <activity
+201-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+202            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+202-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+203            android:excludeFromRecents="true"
+203-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+206        <!--
+207            Service handling Google Sign-In user revocation. For apps that do not integrate with
+208            Google Sign-In, this service will never be started.
+209        -->
+210        <service
+210-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+211            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+211-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+212            android:exported="true"
+212-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+213            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+213-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+214            android:visibleToInstantApps="true" />
+214-->[com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+215
+216        <activity
+216-->[com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+217            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+217-->[com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+220
+221        <meta-data
+221-->[com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+222            android:name="com.google.android.gms.version"
+222-->[com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+223            android:value="@integer/google_play_services_version" />
+223-->[com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+224    </application>
+225
+226</manifest>

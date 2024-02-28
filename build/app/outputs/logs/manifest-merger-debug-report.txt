@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:2:5-17:19
+INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:2:5-29:19
 MERGED from [:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
@@ -9,132 +9,156 @@ MERGED from [:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack
 MERGED from [:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:26:5-37:19
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:26:5-37:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:21:5-32:19
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:21:5-32:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/62441529a712577ec50acf8043ad28a7/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/62441529a712577ec50acf8043ad28a7/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/d6a050f5ba5b4d4dab407204e2fea35c/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/d6a050f5ba5b4d4dab407204e2fea35c/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/96343e6a0cb2b8506a0a804e0219d0b8/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/96343e6a0cb2b8506a0a804e0219d0b8/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/fcea66158558f50570a3d2a8bc66d692/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/fcea66158558f50570a3d2a8bc66d692/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/5dc51f30d83c2ec4b2ecf84b5484da5e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/5dc51f30d83c2ec4b2ecf84b5484da5e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/2bcc58666d1d067b2a00c7b23b7f0a80/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/2bcc58666d1d067b2a00c7b23b7f0a80/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/4cbbc291f28d10a26ffe3805b9c5db23/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/4cbbc291f28d10a26ffe3805b9c5db23/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:26:5-43:19
+MERGED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:26:5-43:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/2bc2c2c46bb27555dbe1e3b0dd9df0dc/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/2bc2c2c46bb27555dbe1e3b0dd9df0dc/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/e39ba5874d48db50718e734d75fbdaca/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/e39ba5874d48db50718e734d75fbdaca/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/ee81f51c44210b78b318798d6dd61e67/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/ee81f51c44210b78b318798d6dd61e67/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/8eda1a447d2a96975e2d7ad71eab7ad1/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/8eda1a447d2a96975e2d7ad71eab7ad1/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/53b5a37a31df051edb480d6321109df5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/53b5a37a31df051edb480d6321109df5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/578be22e03f3f9159468b1855ba89f47/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/578be22e03f3f9159468b1855ba89f47/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/c56dbba524a986ab02cdd9257bd03640/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/c56dbba524a986ab02cdd9257bd03640/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinerdes/.gradle/caches/transforms-3/7b050f96b1e54c4bd5ed02dff6c2d805/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinerdes/.gradle/caches/transforms-3/7b050f96b1e54c4bd5ed02dff6c2d805/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/2bcc58666d1d067b2a00c7b23b7f0a80/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/578be22e03f3f9159468b1855ba89f47/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:name
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-20:12
-INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-20:12
-INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-20:12
-INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-20:12
-MERGED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-20:12
+ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from [:shared_preferences_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-45:12
 MERGED from [:google_sign_in_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:17:1-75:12
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:15:1-34:12
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/62441529a712577ec50acf8043ad28a7/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/29b244dbf843c904f3423a78227340cc/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.multidex:multidex:2.0.1] /Users/shinerdes/.gradle/caches/transforms-3/ebd50810e00698c89113dbfd5272d2fa/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/8e92b5fff6b137f5293ce91f70913aeb/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/shinerdes/.gradle/caches/transforms-3/8a8c9966e674d9f9542f5a4757c4604e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/d6a050f5ba5b4d4dab407204e2fea35c/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/96343e6a0cb2b8506a0a804e0219d0b8/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/fcea66158558f50570a3d2a8bc66d692/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/d8032f09746f1fa4b19b3aa21a8be1da/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/5dc51f30d83c2ec4b2ecf84b5484da5e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/a9efe4548d7c64fe4da4f01879c344c9/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/ae943b78a6a6e4ad385699ba3cf2935d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.browser:browser:1.4.0] /Users/shinerdes/.gradle/caches/transforms-3/0500b7b0b6a7fb3d00e9201dc153cdce/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/16eb01a850e06988cfafb48672b6a160/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e9efa2f0e667048c3c3ddab67cec100a/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/d01077e87609767530641e8fed2b386c/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/2bcc58666d1d067b2a00c7b23b7f0a80/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinerdes/.gradle/caches/transforms-3/ff8d9a8bcf27012713c6b8ccfc54e9c2/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/abfb9a2dbf29b707d4081574e90d8b28/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/b378de18f4f14f72467fa2733c3e9d8a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/0ede59f99bfa61d5d5a873d06d603f76/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/6205acb3e46b7a962dcb10f79e6a5179/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/3242eb058c190bff5e0956f3aea9b79e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/shinerdes/.gradle/caches/transforms-3/58e705cc20353eae04cafa1e62766cde/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/29150562ad54bd3b10d064d661894c3e/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/4cbbc291f28d10a26ffe3805b9c5db23/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/00479c5d8ba8b81d45bcc50547a38ed9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shinerdes/.gradle/caches/transforms-3/1e1d57e617add9374d746c83c83c87ad/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/32152967fc3b8d41a204d974ba50bfd4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [:webview_flutter_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/9422128f415c5ba0d25745319272b500/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/2bc2c2c46bb27555dbe1e3b0dd9df0dc/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/shinerdes/.gradle/caches/transforms-3/4983e09de298d6bc75e526003dad136e/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/shinerdes/.gradle/caches/transforms-3/06fa1449095f04be80cdba17bfd91cd9/transformed/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/shinerdes/.gradle/caches/transforms-3/c6fef8997bf6f3d09d6600669f50a07b/transformed/webkit-1.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/2d7dc7e1b2b18c6470f950db06c02ea4/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/shinerdes/.gradle/caches/transforms-3/fb6655abda7bcf6f775645bd42e8e47a/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/e39ba5874d48db50718e734d75fbdaca/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/ee81f51c44210b78b318798d6dd61e67/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/8eda1a447d2a96975e2d7ad71eab7ad1/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/948f2a8164dbf7288ad0730bc6bb6441/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/53b5a37a31df051edb480d6321109df5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/de0ec9bb19660d1d0191bcbc4a10b4a7/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/76c16b57461163f4d9cce7cdd9946434/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e30e6ea391ca252d80345363ea3c2991/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/359e06917cefa29176265a03201e5fa3/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/shinerdes/.gradle/caches/transforms-3/761ff1a3076723131fab66d0130b01d5/transformed/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/fa3723cc27d14fd2a45a94be2c9e69ee/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/4e981a2e246d165e3d01534c953cc2ef/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/d2fa004543459d580710066c2d9c88a3/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/shinerdes/.gradle/caches/transforms-3/48cd2221fc4423ab827567cd163d6e3a/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/ae8001c01eae06e7ff52b67c3f1a39a6/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a04192d77b22d739ba923131a20fcb64/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/0ec668ada1ad668636df135194db5a27/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a4bcfb6ee9fe092b686d265f96066b66/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/53f546658bbcc2bfaa0ffa89e4ad2a87/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/32d7316a2f2647b735cc4bc693388539/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/578be22e03f3f9159468b1855ba89f47/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinerdes/.gradle/caches/transforms-3/4d29e822c92bd30b31f241fe8e86e9c5/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/26a01c31e2ea190bd4ca5891600f7984/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a1e5b5641a5015b18fa5c7458035fc08/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/f6faa2cec205e329dac49db7bab88b67/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e9c8011a8c55dbf87da97d1b53fcb7f4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/56d5a25cc34387c5f8675f8db3c90b1b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/8e2cce3847a194d2264ef68a6401dbac/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/c56dbba524a986ab02cdd9257bd03640/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/86285d24693dd90954db4093ee18878f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/shinerdes/.gradle/caches/transforms-3/8f5c7e2e17cd251a0dc281783e4556ff/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/bb7ad0e73d1f3f98771fc1a369e5ced2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/64aee71a552f839b43beb9120a52d2f5/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shinerdes/.gradle/caches/transforms-3/91c174f3d883a6b0b9092ae786032110/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/6cbf66d3c5cf1a0f232a75ded3e65b36/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinerdes/.gradle/caches/transforms-3/7b050f96b1e54c4bd5ed02dff6c2d805/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/f1391b1eb61acefa77c3c5307f178cd7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-20:12
+		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-32:12
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-20:12
+		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-32:12
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-20:12
+		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:1-32:12
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:18:5-66
-MERGED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:18:5-66
-MERGED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:18:5-66
+ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:30:5-66
+MERGED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:30:5-66
+MERGED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:30:5-66
 MERGED from [:google_sign_in_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [:google_sign_in_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:18:22-64
+		ADDED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml:30:22-64
 uses-sdk
 INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_database] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -143,92 +167,126 @@ MERGED from [:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack
 MERGED from [:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_sign_in_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_sign_in_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:21:5-23:64
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:21:5-23:64
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/62441529a712577ec50acf8043ad28a7/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/62441529a712577ec50acf8043ad28a7/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/29b244dbf843c904f3423a78227340cc/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/29b244dbf843c904f3423a78227340cc/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.multidex:multidex:2.0.1] /Users/shinerdes/.gradle/caches/transforms-3/ebd50810e00698c89113dbfd5272d2fa/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.1] /Users/shinerdes/.gradle/caches/transforms-3/ebd50810e00698c89113dbfd5272d2fa/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/8e92b5fff6b137f5293ce91f70913aeb/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/8e92b5fff6b137f5293ce91f70913aeb/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/shinerdes/.gradle/caches/transforms-3/8a8c9966e674d9f9542f5a4757c4604e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/shinerdes/.gradle/caches/transforms-3/8a8c9966e674d9f9542f5a4757c4604e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/d6a050f5ba5b4d4dab407204e2fea35c/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/d6a050f5ba5b4d4dab407204e2fea35c/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/96343e6a0cb2b8506a0a804e0219d0b8/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
-MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/96343e6a0cb2b8506a0a804e0219d0b8/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/fcea66158558f50570a3d2a8bc66d692/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/fcea66158558f50570a3d2a8bc66d692/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/d8032f09746f1fa4b19b3aa21a8be1da/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/d8032f09746f1fa4b19b3aa21a8be1da/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/5dc51f30d83c2ec4b2ecf84b5484da5e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/5dc51f30d83c2ec4b2ecf84b5484da5e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/a9efe4548d7c64fe4da4f01879c344c9/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/a9efe4548d7c64fe4da4f01879c344c9/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/ae943b78a6a6e4ad385699ba3cf2935d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/ae943b78a6a6e4ad385699ba3cf2935d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.4.0] /Users/shinerdes/.gradle/caches/transforms-3/0500b7b0b6a7fb3d00e9201dc153cdce/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /Users/shinerdes/.gradle/caches/transforms-3/0500b7b0b6a7fb3d00e9201dc153cdce/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/16eb01a850e06988cfafb48672b6a160/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/16eb01a850e06988cfafb48672b6a160/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e9efa2f0e667048c3c3ddab67cec100a/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e9efa2f0e667048c3c3ddab67cec100a/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/d01077e87609767530641e8fed2b386c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/d01077e87609767530641e8fed2b386c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/2bcc58666d1d067b2a00c7b23b7f0a80/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/2bcc58666d1d067b2a00c7b23b7f0a80/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinerdes/.gradle/caches/transforms-3/ff8d9a8bcf27012713c6b8ccfc54e9c2/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinerdes/.gradle/caches/transforms-3/ff8d9a8bcf27012713c6b8ccfc54e9c2/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/abfb9a2dbf29b707d4081574e90d8b28/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/abfb9a2dbf29b707d4081574e90d8b28/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/b378de18f4f14f72467fa2733c3e9d8a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/b378de18f4f14f72467fa2733c3e9d8a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/0ede59f99bfa61d5d5a873d06d603f76/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/0ede59f99bfa61d5d5a873d06d603f76/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/6205acb3e46b7a962dcb10f79e6a5179/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/6205acb3e46b7a962dcb10f79e6a5179/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/3242eb058c190bff5e0956f3aea9b79e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/3242eb058c190bff5e0956f3aea9b79e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/shinerdes/.gradle/caches/transforms-3/58e705cc20353eae04cafa1e62766cde/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/shinerdes/.gradle/caches/transforms-3/58e705cc20353eae04cafa1e62766cde/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/29150562ad54bd3b10d064d661894c3e/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/29150562ad54bd3b10d064d661894c3e/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/4cbbc291f28d10a26ffe3805b9c5db23/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/4cbbc291f28d10a26ffe3805b9c5db23/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/00479c5d8ba8b81d45bcc50547a38ed9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/00479c5d8ba8b81d45bcc50547a38ed9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shinerdes/.gradle/caches/transforms-3/1e1d57e617add9374d746c83c83c87ad/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shinerdes/.gradle/caches/transforms-3/1e1d57e617add9374d746c83c83c87ad/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/32152967fc3b8d41a204d974ba50bfd4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/32152967fc3b8d41a204d974ba50bfd4/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [:webview_flutter_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/9422128f415c5ba0d25745319272b500/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/9422128f415c5ba0d25745319272b500/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/2bc2c2c46bb27555dbe1e3b0dd9df0dc/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shinerdes/.gradle/caches/transforms-3/2bc2c2c46bb27555dbe1e3b0dd9df0dc/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/shinerdes/.gradle/caches/transforms-3/4983e09de298d6bc75e526003dad136e/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/shinerdes/.gradle/caches/transforms-3/4983e09de298d6bc75e526003dad136e/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/shinerdes/.gradle/caches/transforms-3/06fa1449095f04be80cdba17bfd91cd9/transformed/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/shinerdes/.gradle/caches/transforms-3/06fa1449095f04be80cdba17bfd91cd9/transformed/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/shinerdes/.gradle/caches/transforms-3/c6fef8997bf6f3d09d6600669f50a07b/transformed/webkit-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/shinerdes/.gradle/caches/transforms-3/c6fef8997bf6f3d09d6600669f50a07b/transformed/webkit-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/2d7dc7e1b2b18c6470f950db06c02ea4/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/2d7dc7e1b2b18c6470f950db06c02ea4/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/shinerdes/.gradle/caches/transforms-3/fb6655abda7bcf6f775645bd42e8e47a/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/shinerdes/.gradle/caches/transforms-3/fb6655abda7bcf6f775645bd42e8e47a/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/e39ba5874d48db50718e734d75fbdaca/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/shinerdes/.gradle/caches/transforms-3/e39ba5874d48db50718e734d75fbdaca/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/ee81f51c44210b78b318798d6dd61e67/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/shinerdes/.gradle/caches/transforms-3/ee81f51c44210b78b318798d6dd61e67/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/8eda1a447d2a96975e2d7ad71eab7ad1/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/shinerdes/.gradle/caches/transforms-3/8eda1a447d2a96975e2d7ad71eab7ad1/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/948f2a8164dbf7288ad0730bc6bb6441/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shinerdes/.gradle/caches/transforms-3/948f2a8164dbf7288ad0730bc6bb6441/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/53b5a37a31df051edb480d6321109df5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shinerdes/.gradle/caches/transforms-3/53b5a37a31df051edb480d6321109df5/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/de0ec9bb19660d1d0191bcbc4a10b4a7/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/de0ec9bb19660d1d0191bcbc4a10b4a7/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/76c16b57461163f4d9cce7cdd9946434/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/76c16b57461163f4d9cce7cdd9946434/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e30e6ea391ca252d80345363ea3c2991/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e30e6ea391ca252d80345363ea3c2991/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/359e06917cefa29176265a03201e5fa3/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/359e06917cefa29176265a03201e5fa3/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/shinerdes/.gradle/caches/transforms-3/761ff1a3076723131fab66d0130b01d5/transformed/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/shinerdes/.gradle/caches/transforms-3/761ff1a3076723131fab66d0130b01d5/transformed/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/fa3723cc27d14fd2a45a94be2c9e69ee/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/fa3723cc27d14fd2a45a94be2c9e69ee/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/4e981a2e246d165e3d01534c953cc2ef/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/4e981a2e246d165e3d01534c953cc2ef/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/d2fa004543459d580710066c2d9c88a3/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/d2fa004543459d580710066c2d9c88a3/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/shinerdes/.gradle/caches/transforms-3/48cd2221fc4423ab827567cd163d6e3a/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/shinerdes/.gradle/caches/transforms-3/48cd2221fc4423ab827567cd163d6e3a/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/ae8001c01eae06e7ff52b67c3f1a39a6/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/ae8001c01eae06e7ff52b67c3f1a39a6/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a04192d77b22d739ba923131a20fcb64/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a04192d77b22d739ba923131a20fcb64/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/0ec668ada1ad668636df135194db5a27/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/0ec668ada1ad668636df135194db5a27/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a4bcfb6ee9fe092b686d265f96066b66/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a4bcfb6ee9fe092b686d265f96066b66/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/53f546658bbcc2bfaa0ffa89e4ad2a87/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/53f546658bbcc2bfaa0ffa89e4ad2a87/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/32d7316a2f2647b735cc4bc693388539/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/32d7316a2f2647b735cc4bc693388539/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/578be22e03f3f9159468b1855ba89f47/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/shinerdes/.gradle/caches/transforms-3/578be22e03f3f9159468b1855ba89f47/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinerdes/.gradle/caches/transforms-3/4d29e822c92bd30b31f241fe8e86e9c5/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/shinerdes/.gradle/caches/transforms-3/4d29e822c92bd30b31f241fe8e86e9c5/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/26a01c31e2ea190bd4ca5891600f7984/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/26a01c31e2ea190bd4ca5891600f7984/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a1e5b5641a5015b18fa5c7458035fc08/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/a1e5b5641a5015b18fa5c7458035fc08/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/f6faa2cec205e329dac49db7bab88b67/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/f6faa2cec205e329dac49db7bab88b67/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e9c8011a8c55dbf87da97d1b53fcb7f4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/e9c8011a8c55dbf87da97d1b53fcb7f4/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/56d5a25cc34387c5f8675f8db3c90b1b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/56d5a25cc34387c5f8675f8db3c90b1b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/8e2cce3847a194d2264ef68a6401dbac/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/shinerdes/.gradle/caches/transforms-3/8e2cce3847a194d2264ef68a6401dbac/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/c56dbba524a986ab02cdd9257bd03640/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shinerdes/.gradle/caches/transforms-3/c56dbba524a986ab02cdd9257bd03640/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/86285d24693dd90954db4093ee18878f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/86285d24693dd90954db4093ee18878f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/shinerdes/.gradle/caches/transforms-3/8f5c7e2e17cd251a0dc281783e4556ff/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/shinerdes/.gradle/caches/transforms-3/8f5c7e2e17cd251a0dc281783e4556ff/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/bb7ad0e73d1f3f98771fc1a369e5ced2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/bb7ad0e73d1f3f98771fc1a369e5ced2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/64aee71a552f839b43beb9120a52d2f5/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/64aee71a552f839b43beb9120a52d2f5/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shinerdes/.gradle/caches/transforms-3/91c174f3d883a6b0b9092ae786032110/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/shinerdes/.gradle/caches/transforms-3/91c174f3d883a6b0b9092ae786032110/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/6cbf66d3c5cf1a0f232a75ded3e65b36/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shinerdes/.gradle/caches/transforms-3/6cbf66d3c5cf1a0f232a75ded3e65b36/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinerdes/.gradle/caches/transforms-3/7b050f96b1e54c4bd5ed02dff6c2d805/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/shinerdes/.gradle/caches/transforms-3/7b050f96b1e54c4bd5ed02dff6c2d805/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/f1391b1eb61acefa77c3c5307f178cd7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shinerdes/.gradle/caches/transforms-3/f1391b1eb61acefa77c3c5307f178cd7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:23:9-61
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/android/app/src/debug/AndroidManifest.xml
@@ -243,24 +301,24 @@ MERGED from [:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack
 MERGED from [:firebase_storage] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:27:9-36:19
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:27:9-36:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:22:9-31:19
-MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:22:9-31:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:68:13-37
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:68:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:34:13-32
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:34:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
 	android:name
 		ADDED from [:firebase_auth] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
@@ -287,177 +345,232 @@ ADDED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_sho
 		ADDED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [:firebase_core] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+queries
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-24:15
+package#com.kakao.talk
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-50
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:22-76
-activity#com.google.firebase.auth.internal.GenericIdpActivity
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:31:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:33:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:32:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:34:13-72
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-47
+package#com.kakao.talk.alpha
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-56
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:30:13-80
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:35:13-45:29
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:11:18-53
+package#com.kakao.talk.sandbox
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-58
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-55
+package#com.kakao.onetalk
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-53
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-50
+package#com.locnall.KimGiSa
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-55
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-52
+package#com.lguplus.navi
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-52
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:15:18-49
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:18
 action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
 category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
 data
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:41:17-44:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:43:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:42:21-49
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
 	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:44:21-48
-activity#com.google.firebase.auth.internal.RecaptchaActivity
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:47:9-64:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:49:13-46
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+activity#com.kakao.sdk.flutter.TalkAuthCodeActivity
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-32:56
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:51:13-44
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:50:13-36
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
+	android:configChanges
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-81
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:52:13-72
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-53
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:48:13-79
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:53:13-63:29
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:71:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/0160634b6acca8e2af2a55f550f24ca8/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:70:17-109
-meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
-ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:30:13-32:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:32:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:31:17-118
-meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:33:13-35:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:35:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/fda8d8e7a996be22cd5201cd15a68706/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:34:17-107
-meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
-ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
-	android:value
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:31:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:30:17-120
-meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/e93ba5e65218bd88ad90b021c014bdc2/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:33:17-109
-meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
-ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:25:13-27:85
-	android:value
-		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:27:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:26:17-120
-meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
-ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:28:13-30:85
-	android:value
-		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:30:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/7c567305f2bd712a77efa94eeaa22f96/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:29:17-117
-meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/27db432c2eb2d202ca80af8f5845dfcb/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-70
+activity#com.kakao.sdk.flutter.AuthCodeCustomTabsActivity
+MERGED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-37:56
+MERGED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-37:56
+	android:launchMode
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-36
+	android:theme
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-53
+activity#com.kakao.sdk.flutter.FollowChannelHandlerActivity
+ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-42:56
+	android:launchMode
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-44
+	android:exported
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-36
+	android:theme
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-53
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+		ADDED from [:kakao_flutter_sdk_common] /Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/1f0ed3797e1bfffb7006c28f105cb3c5/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
-uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
-	android:name
-		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/2e3474a31fdabff4077456cc8fe67381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/10d0c1c50add11c516197c7d04d6b109/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:33:13-44
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:32:13-36
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:34:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
-	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:35:13-45:29
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/8cbdcbc517f0954b37256b8f9789a76a/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:51:13-44
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:50:13-36
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:52:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/2db28b437bfd44bb501c4facf8147d37/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:71:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/6cb098b414a850823beb10051a9a3f1b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/shinerdes/.gradle/caches/transforms-3/54e5f92bf932f7e2f9b8d8d6d8dd3453/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/6358d3ed647e1778d595b8861db3631b/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] /Users/shinerdes/.gradle/caches/transforms-3/813b83be154fe224040adf3c45e96d1b/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] /Users/shinerdes/.gradle/caches/transforms-3/00163bc58cdd202b92dfe8779fae0c86/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/d2fd06c536351b619aae90cd6bf03e04/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/shinerdes/.gradle/caches/transforms-3/d918614e4f1df9075b93d277948f0775/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/shinerdes/.gradle/caches/transforms-3/3944caee84371c124f0b380985ce625e/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/shinerdes/.gradle/caches/transforms-3/c5a0c0de358b7e7675a9be34c58e09d0/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/shinerdes/.gradle/caches/transforms-3/b5f2e42bb6e0177575cef8cd5bbabee7/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shinerdes/.gradle/caches/transforms-3/17fc4b8a4abe4184484d4cda289c77e0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/shinerdes/.gradle/caches/transforms-3/19907528a2f4c3cb7fc99a26b9c672d0/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
