@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:quantity_input/quantity_input.dart';
+import 'package:snack_shop/components/rounded_icon_button.dart';
 import 'package:snack_shop/data/snack_data.dart';
 import 'package:snack_shop/models/cart_model.dart';
 
@@ -52,123 +53,142 @@ class _SnackDetailScreenState extends State<SnackDetailScreen> {
               padding: const EdgeInsets.all(8.0),
               child: Column(
                 children: [
-                  Center(
-                    child: Hero(
-                      tag: "cartImage${snackDataList[widget.index]['image']}",
-                      child: Image.asset(
-                        'assets/images/${snackDataList[widget.index]['image']!}.png',
-                        width: 300,
-                        height: 300,
-                        fit: BoxFit.fill,
-                      ),
-                    ),
-                  ),
-                  SizedBox(
-                    width: MediaQuery.of(context).size.width - 50,
-                    height: 2,
-                    child: const ColoredBox(color: Colors.black),
-                  ),
                   Expanded(
-                    child: SizedBox(
-                      width: MediaQuery.of(context).size.width,
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                    child: SingleChildScrollView(
+                      child: ListView(
+                        shrinkWrap: true,
+                        physics: const NeverScrollableScrollPhysics(),
                         children: [
-                          Text(
-                            snackDataList[widget.index]['name']!,
-                            style: const TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 50),
-                          ),
-                          Text(
-                            '가격: ${snackDataList[widget.index]['price'].toString()}원',
-                            style: const TextStyle(
-                                fontWeight: FontWeight.normal, fontSize: 35),
-                          ),
-                          Text(
-                            '중량: ${snackDataList[widget.index]['weight']!}',
-                            style: const TextStyle(
-                                fontWeight: FontWeight.normal, fontSize: 30),
-                          ),
-                          Text(
-                            '제조사: ${snackDataList[widget.index]['company']!}',
-                            style: const TextStyle(
-                                fontWeight: FontWeight.normal, fontSize: 30),
-                          ),
-                          Column(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              QuantityInput(
-                                readOnly: true,
-                                buttonColor: Colors.blue,
-                                value: simpleIntInput,
-                                onChanged: (value) => setState(
-                                  () => simpleIntInput = int.parse(
-                                    value.replaceAll(',', ''),
-                                  ),
-                                ),
+                          Center(
+                            child: Hero(
+                              tag:
+                                  "cartImage${snackDataList[widget.index]['image']}",
+                              child: Image.asset(
+                                'assets/images/${snackDataList[widget.index]['image']!}.png',
+                                width: 300,
+                                height: 300,
+                                fit: BoxFit.fill,
                               ),
-                            ],
+                            ),
+                          ),
+                          Center(
+                            child: Text(
+                              snackDataList[widget.index]['name']!,
+                              style: const TextStyle(
+                                  fontWeight: FontWeight.bold, fontSize: 50),
+                            ),
+                          ),
+                          SizedBox(
+                            width: MediaQuery.of(context).size.width,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Row(
+                                  children: [
+                                    Expanded(
+                                      flex: 1,
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            '₩${snackDataList[widget.index]['price'].toString()}',
+                                            style: const TextStyle(
+                                                fontWeight: FontWeight.normal,
+                                                fontSize: 35),
+                                          ),
+                                          Text(
+                                            '${snackDataList[widget.index]['weight']!}',
+                                            style: const TextStyle(
+                                                color: Colors.grey,
+                                                fontWeight: FontWeight.w500,
+                                                fontSize: 20),
+                                          ),
+                                          Text(
+                                            '${snackDataList[widget.index]['company']!}',
+                                            style: const TextStyle(
+                                                color: Colors.grey,
+                                                fontWeight: FontWeight.w500,
+                                                fontSize: 20),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    Expanded(
+                                      flex: 1,
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.end,
+                                        mainAxisSize: MainAxisSize.min,
+                                        children: [
+                                          QuantityInput(
+                                            readOnly: true,
+                                            buttonColor: Colors.black,
+                                            value: simpleIntInput,
+                                            onChanged: (value) => setState(
+                                              () => simpleIntInput = int.parse(
+                                                value.replaceAll(',', ''),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: MediaQuery.of(context).size.width,
+                                  height: 10,
+                                ),
+                                Image.asset(
+                                    'assets/images/${snackDataList[widget.index]['image']!}-detail.png',
+                                    fit: BoxFit.cover),
+                              ],
+                            ),
                           ),
                         ],
                       ),
                     ),
                   ),
-                  Container(
-                    color: Colors.blueAccent.shade100,
-                    child: SizedBox(
-                      width: MediaQuery.of(context).size.width,
-                      height: 75,
-                      child: TextButton(
-                          onPressed: () async {
-                            final exist = await FirebaseDatabase.instance
-                                .ref()
-                                .child(FirebaseAuth.instance.currentUser!.uid)
-                                .child('cart')
-                                .child(snackDataList[widget.index]['image']!)
-                                .get();
+                  IconRoundedButton(
+                    onPressed: () async {
+                      final exist = await FirebaseDatabase.instance
+                          .ref()
+                          .child(FirebaseAuth.instance.currentUser!.uid)
+                          .child('cart')
+                          .child(snackDataList[widget.index]['image']!)
+                          .get();
 
-                            if (exist.exists == true) {
-                              dataUpdate(
-                                  name: snackDataList[widget.index]['image']!,
-                                  count: simpleIntInput);
-                            } else {
-                              await _realtime
-                                  .ref()
-                                  .child(FirebaseAuth.instance.currentUser!.uid)
-                                  .child('cart')
-                                  .child(snackDataList[widget.index]['image']!)
-                                  .set(Cart(
-                                          name: snackDataList[widget.index]
-                                              ['name']!,
-                                          count: simpleIntInput,
-                                          price: snackDataList[widget.index]
-                                              ['price'],
-                                          image: snackDataList[widget.index]
-                                              ['image']!)
-                                      .toJson());
-                            }
+                      if (exist.exists == true) {
+                        dataUpdate(
+                            name: snackDataList[widget.index]['image']!,
+                            count: simpleIntInput);
+                      } else {
+                        await _realtime
+                            .ref()
+                            .child(FirebaseAuth.instance.currentUser!.uid)
+                            .child('cart')
+                            .child(snackDataList[widget.index]['image']!)
+                            .set(Cart(
+                                    name: snackDataList[widget.index]['name']!,
+                                    count: simpleIntInput,
+                                    price: snackDataList[widget.index]['price'],
+                                    image: snackDataList[widget.index]
+                                        ['image']!)
+                                .toJson());
+                      }
 
-                            _onBackPressed(context);
-                          },
-                          child: const Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Icon(
-                                Icons.shopping_cart_checkout_outlined,
-                                size: 30,
-                              ),
-                              Text(
-                                '카트에 담기',
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                            ],
-                          )),
-                    ),
-                  )
+                      _onBackPressed(context);
+                    },
+                    icon: Icons.shopping_cart,
+                    title: "카트에 담기",
+                    colour: Colors.black,
+                    fontsize: 25.0,
+                    height: 62.0,
+                  ),
                 ],
               ),
             ),

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:intl/intl.dart';
 import 'package:snack_shop/components/checkoutCartContainer.dart';
+import 'package:snack_shop/components/rounded_icon_button.dart';
 import 'package:snack_shop/models/cart_model.dart';
 import 'package:flutter/services.dart';
 
@@ -65,11 +66,6 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                     children: [
                       Column(
                         children: [
-                          SizedBox(
-                            width: MediaQuery.of(context).size.width,
-                            height: 2,
-                            child: const ColoredBox(color: Colors.black),
-                          ),
                           Column(
                             children: [
                               Container(
@@ -156,7 +152,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                                         keyboardType: TextInputType.number,
                                         controller: _phoneTextController,
                                         inputFormatters: [
-                                          FilteringTextInputFormatter.deny(
+                                          FilteringTextInputFormatter.allow(
                                               RegExp('[0-9]'))
                                         ],
                                         decoration: const InputDecoration(
@@ -203,11 +199,6 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                           ),
                         ],
                       ),
-                      SizedBox(
-                        width: MediaQuery.of(context).size.width,
-                        height: 2,
-                        child: const ColoredBox(color: Colors.black),
-                      ),
                       Expanded(
                         child: GridView.builder(
                           itemCount: snapshot.data?.length ?? 0,
@@ -232,89 +223,71 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(left: 15.0),
-                        alignment: Alignment.centerLeft,
+                        padding: const EdgeInsets.only(right: 15.0),
+                        alignment: Alignment.centerRight,
                         height: 40,
                         child: Text(
-                          '합계: ${widget.cost}원',
+                          '₩${widget.cost}',
                           style: const TextStyle(fontSize: 30),
                         ),
                       ),
-                      Container(
-                        color: Colors.blueAccent.shade100,
-                        child: SizedBox(
-                          height: 100,
-                          child: TextButton(
-                            onPressed: () async {
-                              if (_nameTextController.text != '' &&
-                                  _addressTextController.text != '' &&
-                                  _phoneTextController.text != '' &&
-                                  _memoTextController.text != '') {
-                                DateTime dt = DateTime.now();
+                      IconRoundedButton(
+                        onPressed: () async {
+                          if (_nameTextController.text != '' &&
+                              _addressTextController.text != '' &&
+                              _phoneTextController.text != '' &&
+                              _memoTextController.text != '') {
+                            DateTime dt = DateTime.now();
 
-                                String formatDate =
-                                    DateFormat('yy:MM:dd-HH:mm:ss').format(dt);
+                            String formatDate =
+                                DateFormat('yy:MM:dd-HH:mm:ss').format(dt);
 
-                                await FirebaseDatabase.instance
-                                    .ref()
-                                    .child(
-                                        FirebaseAuth.instance.currentUser!.uid)
-                                    .child('order')
-                                    .child(formatDate)
-                                    .set({
-                                  "orderName": _nameTextController.text,
-                                  "orderAddress": _addressTextController.text,
-                                  "phoneNumber": _phoneTextController.text,
-                                  "orderMemo": _memoTextController.text,
-                                  "cost": widget.cost,
-                                });
+                            await FirebaseDatabase.instance
+                                .ref()
+                                .child(FirebaseAuth.instance.currentUser!.uid)
+                                .child('order')
+                                .child(formatDate)
+                                .set({
+                              "orderName": _nameTextController.text,
+                              "orderAddress": _addressTextController.text,
+                              "phoneNumber": _phoneTextController.text,
+                              "orderMemo": _memoTextController.text,
+                              "cost": widget.cost,
+                            });
 
-                                for (int aa = 0;
-                                    aa < snapshot.data!.length;
-                                    aa++) {
-                                  await FirebaseDatabase.instance
-                                      .ref()
-                                      .child(FirebaseAuth
-                                          .instance.currentUser!.uid)
-                                      .child('order')
-                                      .child(formatDate)
-                                      .child('buy')
-                                      .child(snapshot.data![aa].image)
-                                      .set(Cart(
-                                              name: snapshot.data![aa].name,
-                                              count: snapshot.data![aa].count,
-                                              price: snapshot.data![aa].price,
-                                              image: snapshot.data![aa].image)
-                                          .toJson());
-                                }
+                            for (int aa = 0; aa < snapshot.data!.length; aa++) {
+                              await FirebaseDatabase.instance
+                                  .ref()
+                                  .child(FirebaseAuth.instance.currentUser!.uid)
+                                  .child('order')
+                                  .child(formatDate)
+                                  .child('buy')
+                                  .child(snapshot.data![aa].image)
+                                  .set(Cart(
+                                          name: snapshot.data![aa].name,
+                                          count: snapshot.data![aa].count,
+                                          price: snapshot.data![aa].price,
+                                          image: snapshot.data![aa].image)
+                                      .toJson());
+                            }
 
-                                await FirebaseDatabase.instance
-                                    .ref()
-                                    .child(
-                                        FirebaseAuth.instance.currentUser!.uid)
-                                    .child('cart')
-                                    .remove();
+                            await FirebaseDatabase.instance
+                                .ref()
+                                .child(FirebaseAuth.instance.currentUser!.uid)
+                                .child('cart')
+                                .remove();
 
-                                _onBackPressed(context);
-                              } else {
-                                _showdialog(context);
-                              }
-                            },
-                            child: const Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Text(
-                                  '주문하기',
-                                  style: TextStyle(
-                                      color: Colors.black,
-                                      fontSize: 25,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      )
+                            _onBackPressed(context);
+                          } else {
+                            _showdialog(context);
+                          }
+                        },
+                        icon: Icons.payment,
+                        title: ' 주문하기',
+                        colour: Colors.black,
+                        fontsize: 21.0,
+                        height: 62.0,
+                      ),
                     ],
                   ),
                 );

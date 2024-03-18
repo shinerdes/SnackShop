@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:snack_shop/components/snackMenuContainer.dart';
 import 'package:snack_shop/data/snack_data.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({super.key});

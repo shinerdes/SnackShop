@@ -92,7 +92,7 @@ class _OrderHistoryDetailScreenState extends State<OrderHistoryDetailScreen> {
                                 style: const TextStyle(
                                     fontSize: 25, fontWeight: FontWeight.w700)),
                             Text(
-                              '금액 : ${snapshot.data?[0][0]['cost'].toString()}원',
+                              '금액 : ₩${snapshot.data?[0][0]['cost'].toString()}',
                               style: const TextStyle(
                                   fontSize: 25, fontWeight: FontWeight.w700),
                             ),

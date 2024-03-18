@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
-import 'package:snack_shop/components/rounde_icon_button.dart';
+import 'package:snack_shop/components/rounded_asset_button.dart';
 import 'package:snack_shop/components/rounded_button.dart';
 import 'package:snack_shop/constants.dart';
 import 'package:snack_shop/screens/tab_bar_screen.dart';
@@ -147,7 +147,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             },
                             title: 'Log In',
                             colour: Colors.lightBlueAccent),
-                        IconRoundedButton(
+                        AssetRoundedButton(
                           onPressed: () async {
                             var googleUser = await signInWithGoogle();
 
@@ -175,7 +175,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           title: "Google",
                           colour: Colors.blueGrey,
                         ),
-                        IconRoundedButton(
+                        AssetRoundedButton(
                           onPressed: () async {
                             try {
                               OAuthToken token = await UserApi.instance

@@ -1,6 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:snack_shop/components/cartSnackContainer.dart';
+import 'package:snack_shop/components/rounded_button.dart';
 
 import 'package:snack_shop/models/cart_model.dart';
 import 'package:snack_shop/screens/checkout_screen.dart';
@@ -104,7 +105,7 @@ class _CartScreenState extends State<CartScreen> {
                         return Column(
                           children: [
                             Expanded(
-                              flex: 3,
+                              flex: 1,
                               child: Row(
                                 children: [
                                   Expanded(
@@ -119,22 +120,22 @@ class _CartScreenState extends State<CartScreen> {
                               ),
                             ),
                             Expanded(
-                              flex: 3,
+                              flex: 1,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.end,
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
                                   Container(
-                                    width: 150,
+                                    width: 200,
                                     padding: const EdgeInsets.all(10),
                                     decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(10),
-                                        color: Theme.of(context)
-                                            .colorScheme
-                                            .secondary),
+                                      borderRadius: BorderRadius.circular(10),
+                                    ),
                                     child: Row(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
                                       mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
                                         InkWell(
                                             onTap: () {
@@ -154,8 +155,8 @@ class _CartScreenState extends State<CartScreen> {
                                             },
                                             child: const Icon(
                                               Icons.remove,
-                                              color: Colors.white,
-                                              size: 25,
+                                              color: Colors.black,
+                                              size: 35,
                                             )),
                                         Container(
                                           margin: const EdgeInsets.symmetric(
@@ -163,14 +164,14 @@ class _CartScreenState extends State<CartScreen> {
                                           padding: const EdgeInsets.symmetric(
                                               horizontal: 10, vertical: 5),
                                           decoration: BoxDecoration(
-                                              borderRadius:
-                                                  BorderRadius.circular(3),
-                                              color: Colors.white),
+                                            borderRadius:
+                                                BorderRadius.circular(3),
+                                          ),
                                           child: Text(
                                             '${countArray[index]}',
                                             style: const TextStyle(
                                                 color: Colors.black,
-                                                fontSize: 25),
+                                                fontSize: 35),
                                           ),
                                         ),
                                         InkWell(
@@ -191,8 +192,8 @@ class _CartScreenState extends State<CartScreen> {
                                             },
                                             child: const Icon(
                                               Icons.add,
-                                              color: Colors.white,
-                                              size: 25,
+                                              color: Colors.black,
+                                              size: 35,
                                             )),
                                       ],
                                     ),
@@ -207,7 +208,7 @@ class _CartScreenState extends State<CartScreen> {
                                             '삭제',
                                             style: TextStyle(
                                               color: Colors.black,
-                                              fontSize: 20,
+                                              fontSize: 25,
                                               decoration:
                                                   TextDecoration.underline,
                                             ),
@@ -236,47 +237,22 @@ class _CartScreenState extends State<CartScreen> {
                       },
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      Expanded(
-                        flex: 2,
-                        child: Container(
-                          padding: const EdgeInsets.only(left: 15.0),
-                          alignment: Alignment.centerLeft,
-                          height: 50,
-                          child: Text(
-                            '합계: ${sum(snapshot)}원',
-                            style: const TextStyle(fontSize: 20),
-                          ),
-                        ),
-                      ),
-                      Expanded(
-                        child: SizedBox(
-                          height: 50,
-                          child: ElevatedButton(
-                            onPressed: () async {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => CheckoutScreen(
-                                            cost: sum(snapshot),
-                                          ))).then((value) {
-                                setState(() {});
-                              });
-                            },
-                            child: const Center(
-                              child: Text(
-                                "구매",
-                                style: TextStyle(fontSize: 20),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  )
+                  RoundedButton(
+                    onPressed: () async {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => CheckoutScreen(
+                                    cost: sum(snapshot),
+                                  ))).then((value) {
+                        setState(() {});
+                      });
+                    },
+                    title: '총 ${sum(snapshot)}원 결제하기',
+                    colour: Colors.black,
+                    fontSize: 21.0,
+                    height: 62.0,
+                  ),
                 ],
               ),
             );

@@ -11,6 +11,10 @@ class HomeScreen extends StatefulWidget {
   _HomeScreen createState() => _HomeScreen();
 }
 
+// 총 주문 금액
+// 주문 횟수
+//
+
 class _HomeScreen extends State<HomeScreen> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 

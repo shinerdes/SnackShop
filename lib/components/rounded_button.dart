@@ -5,11 +5,15 @@ class RoundedButton extends StatelessWidget {
       {super.key,
       this.colour = Colors.black,
       required this.onPressed,
-      this.title = ""});
+      this.title = "",
+      this.height = 42.0,
+      this.fontSize = 15.0});
 
   final Color colour;
   final String title;
   final Function onPressed;
+  final double fontSize;
+  final double height;
 
   @override
   Widget build(BuildContext context) {
@@ -24,14 +28,15 @@ class RoundedButton extends StatelessWidget {
             onPressed();
           },
           minWidth: 200.0,
-          height: 42.0,
+          height: height,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 title,
-                style: const TextStyle(
+                style: TextStyle(
                   color: Colors.white,
+                  fontSize: fontSize,
                 ),
               ),
             ],
