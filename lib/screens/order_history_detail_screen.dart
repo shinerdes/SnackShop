@@ -68,14 +68,28 @@ class _OrderHistoryDetailScreenState extends State<OrderHistoryDetailScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            Text(
-                              '${snapshot.data?[0][0]['orderName'].toString()}',
-                              style: const TextStyle(
-                                  fontSize: 30, fontWeight: FontWeight.w900),
-                            ),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
+                            Row(
                               children: [
+                                const Icon(
+                                  Icons.person_rounded,
+                                  size: 40,
+                                ),
+                                const SizedBox(width: 10.0),
+                                Text(
+                                  '${snapshot.data?[0][0]['orderName'].toString()}',
+                                  style: const TextStyle(
+                                      fontSize: 30,
+                                      fontWeight: FontWeight.w900),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(
+                                  Icons.house,
+                                  size: 40,
+                                ),
+                                const SizedBox(width: 10.0),
                                 AutoSizeText(
                                   '${snapshot.data?[0][0]['orderAddress'].toString()}',
                                   style: const TextStyle(
@@ -87,38 +101,63 @@ class _OrderHistoryDetailScreenState extends State<OrderHistoryDetailScreen> {
                                 ),
                               ],
                             ),
-                            Text(
-                                '${snapshot.data?[0][0]['phoneNumber'].toString()}',
-                                style: const TextStyle(
-                                    fontSize: 25, fontWeight: FontWeight.w700)),
-                            Text(
-                              '금액 : ₩${snapshot.data?[0][0]['cost'].toString()}',
-                              style: const TextStyle(
-                                  fontSize: 25, fontWeight: FontWeight.w700),
+                            Row(
+                              children: [
+                                const Icon(
+                                  Icons.phone,
+                                  size: 40,
+                                ),
+                                const SizedBox(width: 10.0),
+                                Text(
+                                    '${snapshot.data?[0][0]['phoneNumber'].toString()}',
+                                    style: const TextStyle(
+                                        fontSize: 25,
+                                        fontWeight: FontWeight.w700)),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(
+                                  Icons.money_rounded,
+                                  size: 40,
+                                ),
+                                const SizedBox(width: 10.0),
+                                Text(
+                                  '₩${snapshot.data?[0][0]['cost'].toString()}',
+                                  style: const TextStyle(
+                                      fontSize: 25,
+                                      fontWeight: FontWeight.w700),
+                                ),
+                              ],
                             ),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                const Text(
-                                  '주문시 요청사항',
-                                  style: TextStyle(
-                                      fontSize: 25,
-                                      fontWeight: FontWeight.w100,
-                                      color: Colors.grey),
-                                ),
-                                AutoSizeText(
-                                  '${snapshot.data?[0][0]['orderMemo'].toString()}',
-                                  style: const TextStyle(
-                                      fontSize: 25,
-                                      fontWeight: FontWeight.w500),
-                                  minFontSize: 15,
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
+                                Row(
+                                  children: [
+                                    const Icon(
+                                      Icons.live_help,
+                                      size: 40,
+                                    ),
+                                    const SizedBox(width: 10.0),
+                                    AutoSizeText(
+                                      '${snapshot.data?[0][0]['orderMemo'].toString()}',
+                                      style: const TextStyle(
+                                          fontSize: 25,
+                                          fontWeight: FontWeight.w500),
+                                      minFontSize: 15,
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ],
                                 ),
                               ],
                             ),
                           ],
                         ),
+                      ),
+                      const SizedBox(
+                        height: 10.0,
                       ),
                       SizedBox(
                         width: MediaQuery.of(context).size.width,

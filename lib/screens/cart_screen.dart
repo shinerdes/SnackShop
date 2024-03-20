@@ -286,12 +286,18 @@ class _CartScreenState extends State<CartScreen> {
                     child: const ColoredBox(color: Colors.black),
                   ),
                   const Expanded(
-                    child: Center(
-                        child: Text(
-                      '담겨있는 과자가 없습니다',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 30.0),
-                    )),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.no_food, size: 100),
+                        SizedBox(height: 5.0),
+                        Text(
+                          '담겨있는 과자가 없습니다',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 30.0),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),

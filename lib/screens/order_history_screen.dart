@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:snack_shop/components/orderHistoryContainer.dart';
 
 import 'package:snack_shop/screens/order_history_detail_screen.dart';
 
@@ -53,29 +54,10 @@ class _OrderHistoryScreenState extends State<OrderHistoryScreen> {
                       shrinkWrap: true,
                       itemCount: snapshot.data?.length ?? 0,
                       itemBuilder: (BuildContext context, int index) =>
-                          SizedBox(
-                        child: Card(
-                          child: ListTile(
-                            leading: const Icon(Icons.timer_rounded),
-                            title: Text(
-                              toDate(snapshot.data![index]),
-                              style: const TextStyle(fontSize: 15),
-                            ),
-                            trailing:
-                                const Icon(Icons.arrow_circle_right_outlined),
-                            onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) =>
-                                          OrderHistoryDetailScreen(
-                                            orderTime: snapshot.data![index],
-                                          ))).then((value) {
-                                setState(() {});
-                              });
-                            },
-                          ),
-                        ),
+                          //  toDate(snapshot.data![index]),
+                          OrderHistoryContainer(
+                        date: toDate(snapshot.data![index]),
+                        orderTime: snapshot.data![index],
                       ),
                     ),
                   ],
@@ -124,3 +106,31 @@ toDate(String date) {
 
   return outDate;
 }
+
+Future<List<dynamic>> readChild2(String order) async {
+  final ref = FirebaseDatabase.instance.ref();
+  final snapshot = await ref
+      .child(FirebaseAuth.instance.currentUser!.uid)
+      .child('order')
+      .child(order)
+      .get();
+
+  List data2 = [];
+  if (snapshot.exists) {
+    Map<dynamic, dynamic> toMap = snapshot.value as Map<dynamic, dynamic>;
+    toMap.remove('buy');
+    data2.add(toMap);
+    return data2;
+  } else {
+    return List.empty();
+  }
+}
+
+
+/*
+
+
+
+
+                              
+*/
