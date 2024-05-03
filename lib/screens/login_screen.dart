@@ -1,7 +1,15 @@
-import 'package:firebase_auth/firebase_auth.dart';
+import 'dart:convert';
 
+import 'dart:math';
+
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_web_auth/flutter_web_auth.dart';
+import 'package:snack_shop/main.dart';
+
+import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
 import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:snack_shop/components/rounded_asset_button.dart';
@@ -10,6 +18,16 @@ import 'package:snack_shop/constants.dart';
 import 'package:snack_shop/screens/tab_bar_screen.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'package:uuid/uuid.dart';
+
+enum LoginPlatform {
+  facebook,
+  google,
+  kakao,
+  naver,
+  apple,
+  none, // logout
+}
 
 class LoginScreen extends StatefulWidget {
   static const String id = 'login_screen';
@@ -24,6 +42,12 @@ class _LoginScreenState extends State<LoginScreen> {
   late String email = '';
   late String password = '';
   bool showSpinner = false;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -240,68 +264,75 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
   }
-}
 
-Future<bool> _onBackPressed(BuildContext context) async {
-  Navigator.pop(context, false);
-  return true;
-}
+  void navigateToMainPage() {
+    Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (context) => const MyApp()));
 
-Future<dynamic> _showdialog(BuildContext context) {
-  return showDialog(
-    context: context,
-    builder: (BuildContext context) => AlertDialog(
-      title: const Text('실패'),
-      content: const Text('로그인 실패'),
-      actions: [
-        ElevatedButton(
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-            child: const Text('확인')),
-      ],
-    ),
-  );
-}
-
-Future<dynamic> _showdialog2(BuildContext context) {
-  return showDialog(
-    context: context,
-    builder: (BuildContext context) => AlertDialog(
-      title: const Text('실패'),
-      content: const Text('정보를 입력하세요'),
-      actions: [
-        ElevatedButton(
-            onPressed: () {
-              print('cancel');
-              Navigator.of(context).pop();
-            },
-            child: const Text('확인')),
-      ],
-    ),
-  );
-}
-
-Future<UserCredential?> signInWithGoogle() async {
-  // Trigger the authentication flow
-
-  final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
-
-  // Obtain the auth details from the request
-  final GoogleSignInAuthentication? googleAuth =
-      await googleUser?.authentication;
-
-  if (googleUser != null) {
-    final credential = GoogleAuthProvider.credential(
-      accessToken: googleAuth?.accessToken,
-      idToken: googleAuth?.idToken,
-    );
-
-    // Once signed in, return the UserCredential
-    return await FirebaseAuth.instance.signInWithCredential(credential);
-  } else {
-    return null;
+    print('siuuuuuuu');
   }
 
-  // Create a new credential
+  Future<bool> _onBackPressed(BuildContext context) async {
+    Navigator.pop(context, false);
+    return true;
+  }
+
+  Future<dynamic> _showdialog(BuildContext context) {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) => AlertDialog(
+        title: const Text('실패'),
+        content: const Text('로그인 실패'),
+        actions: [
+          ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: const Text('확인')),
+        ],
+      ),
+    );
+  }
+
+  Future<dynamic> _showdialog2(BuildContext context) {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) => AlertDialog(
+        title: const Text('실패'),
+        content: const Text('정보를 입력하세요'),
+        actions: [
+          ElevatedButton(
+              onPressed: () {
+                print('cancel');
+                Navigator.of(context).pop();
+              },
+              child: const Text('확인')),
+        ],
+      ),
+    );
+  }
+
+  Future<UserCredential?> signInWithGoogle() async {
+    // Trigger the authentication flow
+
+    final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+
+    // Obtain the auth details from the request
+    final GoogleSignInAuthentication? googleAuth =
+        await googleUser?.authentication;
+
+    if (googleUser != null) {
+      final credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth?.accessToken,
+        idToken: googleAuth?.idToken,
+      );
+
+      // Once signed in, return the UserCredential
+      return await FirebaseAuth.instance.signInWithCredential(credential);
+    } else {
+      return null;
+    }
+
+    // Create a new credential
+  }
 }

@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		4uO7tuZZTHbFjxPdb3lQ77wJpsI=
+		haGhwzJ8/5BXtqcDatAlyLZOA6A=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OozefcIkmLAPxK3a4ga5lpS7o98=
+		VmRP/QhKWwDVPrMSGNN8LCwrui4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		fx57ee+S2PsNScjM1O0BnY2bBlQ=
+		TIJ5ZGBFMLinDmdvrjwheE6pYY4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		n22vWsnIETvHbDg0H/k+NsAWgHs=
+		DCne33II2l7sdXZD9eZATnEoTAk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		RzM6nZR2vNoxKPd6z98HU+Ld9pc=
+		6AbQD6TM47Vn++nMzrInFJTIbNs=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/Jjolboksnack_BBQ_Flavor-detail.png</key>
 		<data>
@@ -128,6 +128,10 @@
 		<data>
 		cGY9Z+4l9EKMbdlPyC3mCWVvDqs=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/naver.png</key>
+		<data>
+		G2w3hRTpeNdAveH4Oeu91odOibg=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/ogsusukkang-detail.png</key>
 		<data>
 		vL351OlRAwxgqfJkDveTR6Ocj10=
@@ -158,7 +162,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		5SIsyCUU3XzImoDkwILvT5MFDZk=
+		r27z/j+WbnRVJfeXfgo4Sv+DQgE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -270,7 +274,7 @@
 		</data>
 		<key>Frameworks/FirebaseDatabase.framework/FirebaseDatabase</key>
 		<data>
-		6t6RUomJHAlWNBM6HoesGAFsZCI=
+		WyHU6WrM5XBpe45kUxJ72HieKCY=
 		</data>
 		<key>Frameworks/FirebaseDatabase.framework/Info.plist</key>
 		<data>
@@ -806,6 +810,74 @@
 		<data>
 		PWDU/1wwROIoPvAeVgkpGCNzKB4=
 		</data>
+		<key>Frameworks/NaverThirdPartyLogin.framework/Info.plist</key>
+		<data>
+		ZlMNfFjXA4R65rCqO9RZvXZ0WSo=
+		</data>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/btn_notice_close_normal@2x.png</key>
+		<data>
+		6qrmq1YvCZv8T3rNV+rOoe3zs5A=
+		</data>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/en.lproj/NaverAuth.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1br+ug0l+PIyfeKS5ncJLk3xRRw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/ko.lproj/NaverAuth.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VcZhTQnpmy3pu1PotAfhxVE6S9U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/login_banner_btn_close@2x.png</key>
+		<data>
+		6MMl81ZE5AUGsqMPKMPO/h+MsvA=
+		</data>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/login_banner_btn_close@3x.png</key>
+		<data>
+		XURFZOkKscyqZo3baTSW94/TJds=
+		</data>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/login_naverapp_logo@2x.png</key>
+		<data>
+		i9X/kPpcujVe9Ln5/iC5CPWZzZ8=
+		</data>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/login_naverapp_logo@3x.png</key>
+		<data>
+		XlZGEos3Yd3zeyWq+F46doyH8Q4=
+		</data>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/zh-Hans.lproj/NaverAuth.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b7OHIcMdoBjKbrsleCrOsmmlUjw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/zh-Hant.lproj/NaverAuth.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lcL2k17dTHXGIlzy0mICTIyrQWY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverThirdPartyLogin</key>
+		<data>
+		izwdfA3uYpaATHvt2UCcAnerqo8=
+		</data>
+		<key>Frameworks/NaverThirdPartyLogin.framework/_CodeSignature/CodeResources</key>
+		<data>
+		9sPRS9v15WjiJ95u3Y3Ire8KDdY=
+		</data>
 		<key>Frameworks/RecaptchaInterop.framework/Info.plist</key>
 		<data>
 		H7r1X3hBddakNOMVtbsnOdsfoY8=
@@ -817,6 +889,30 @@
 		<key>Frameworks/RecaptchaInterop.framework/_CodeSignature/CodeResources</key>
 		<data>
 		dCPRJyf07d87zOnYIx56fTkG83E=
+		</data>
+		<key>Frameworks/flutter_naver_login.framework/Info.plist</key>
+		<data>
+		Ex44Ba7E+Y6xKh8xVOA6lCFET3k=
+		</data>
+		<key>Frameworks/flutter_naver_login.framework/_CodeSignature/CodeResources</key>
+		<data>
+		khOOkx5e4wLRkc9u+Lrfl8K7JfU=
+		</data>
+		<key>Frameworks/flutter_naver_login.framework/flutter_naver_login</key>
+		<data>
+		Xu/ylspOPKGlCmfyVpPQoFLDqxc=
+		</data>
+		<key>Frameworks/flutter_web_auth.framework/Info.plist</key>
+		<data>
+		HRbN8ZAaa3keIgy7anGpGxzU9Mk=
+		</data>
+		<key>Frameworks/flutter_web_auth.framework/_CodeSignature/CodeResources</key>
+		<data>
+		8LHhw8CSXHUUGq+ktx8fU+8ydCQ=
+		</data>
+		<key>Frameworks/flutter_web_auth.framework/flutter_web_auth</key>
+		<data>
+		W5V62SDtRylvgMGuquSDWUVNRGo=
 		</data>
 		<key>Frameworks/kakao_flutter_sdk_common.framework/Info.plist</key>
 		<data>
@@ -862,6 +958,38 @@
 		<data>
 		6uLTlq7fgHHWA8emYDf4ImHC+AY=
 		</data>
+		<key>Frameworks/uni_links.framework/Info.plist</key>
+		<data>
+		Ki3zOB76SvajvJYmmFlf37UalLk=
+		</data>
+		<key>Frameworks/uni_links.framework/_CodeSignature/CodeResources</key>
+		<data>
+		bL3fmMhuUsLCS6XpUjPdsHLw51w=
+		</data>
+		<key>Frameworks/uni_links.framework/uni_links</key>
+		<data>
+		IIyHf1Lg5TtKhQYKKHKFy2axAOg=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/Info.plist</key>
+		<data>
+		ACmaXrQ7Wtn23IGEBJq+7V/bxNo=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/_CodeSignature/CodeResources</key>
+		<data>
+		8t+3fs6l0Mom0A9T4BieOOQrAXQ=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios</key>
+		<data>
+		3r3EH+K4TKEbD/85Qq687yLDpA0=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist</key>
+		<data>
+		KcCs4aFMg0PrC/erOrQf2MMdrJs=
+		</data>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
+		</data>
 		<key>Frameworks/webview_flutter_wkwebview.framework/Info.plist</key>
 		<data>
 		ibVpIyKzE/5iMFByZcEnKYt/+8A=
@@ -888,7 +1016,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lWjNqPVuj5A7T3xVRMCchlVsWdY=
+		+T/PwvaddQ+8dQ/OB+VjHLQrAjo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -979,7 +1107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+voPQzkVkcrISk34x44u9A+7kIxC+RNv/KpgYR4/rHs=
+			F7YMa0+IOmgsCHu5QL+IS5Nj/yIxyZwy0HDgzgFrAaY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -993,21 +1121,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0tvvNbVEHqL5lna31RQ/Jd5DOa+YFpBzdNtrMnAZepU=
+			JvbKaUjOICGTE7mh/J+pgEWC0PVG7hL+4aJHLJa1U44=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mUvjK9+fFSIv+1EatCizo0zl/OgqAc8IVWyefeCLUUo=
+			ooomEN5J2xucy3b6APfulW3TOFtODe9AXHok7wDEpgw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SFLSstB4aGc+vYOpi2fxaGjEV/dMpM0qxa4TJ6nrJVA=
+			zdYmZXNTGc/xoV+948319g3uAFYxQzVWJFwffZUToZ4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -1021,7 +1149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rew79lQdHj2ZFN2yF8HgFBQBxj7nzLt2fBXsPkSR+Uw=
+			uahwm4WgQFFPhFx9wY8aPttUUsp86Fq+4MFebzH0Tr8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/Jjolboksnack_BBQ_Flavor-detail.png</key>
@@ -1122,6 +1250,13 @@
 			1rLGsEqL1x3W3YTRld+LIdiL5DRtWxJWQt11myuFaYo=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/naver.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lho+uzt3cV6LpmTCT6NKZyL+1TNwgJ378Emb2CP8mX0=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/ogsusukkang-detail.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1175,7 +1310,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E8TQcQgiZT9n0DoQvAVUf3/uxMTTP1r4fodKc+uNYbM=
+			A4HWGzN5MGyhgl/8d2Bfj0K0L4HK089fPVG8d2PC9rw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -1371,7 +1506,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmWH9FkdISJ5it9zFXr3DYL/En/CQkH5ZiITgK65Wik=
+			Qq80kXY5w6q+0yW7EaSI6gUzDZmSg92J9KDP8dahbTo=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseDatabase.framework/Info.plist</key>
@@ -2052,6 +2187,98 @@
 			IWLUdondoaXbGZ76399D3Fx0SIEAKpaHf55hJH1rNOY=
 			</data>
 		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0aHm5Oz1h3w11V1t/t1gY7cd9fi6bPExxBUeHOx3nO0=
+			</data>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/btn_notice_close_normal@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4wmFr9OwEOYfeEyR7zcnQBaNaPHsdGKoG2gUtvaskAM=
+			</data>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/en.lproj/NaverAuth.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yKlRxOxLXRmzwY85aPbVGMgLMMaaYOxIfWZoXUGqVOs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/ko.lproj/NaverAuth.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			430v5/bk/jAHDggYvpKACIfCZTLoXhd2Zl0O0a41JRA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/login_banner_btn_close@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YCMRMaA7XDSIm7TUk3L95QLwFK34ScWRbNlsIG/J5Ow=
+			</data>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/login_banner_btn_close@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XbZCZlbRxnfayItnOqxPml5i9GmP/aSgvkrFCbm1D0k=
+			</data>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/login_naverapp_logo@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ou0MihxqloXZVGhRBRFVG/68ODvWcDQ3+tBD8Oe/7nk=
+			</data>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/login_naverapp_logo@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F6QFUr0T2dm38xzvYMR00ISoO7xKONCsBxx3PjM0tRQ=
+			</data>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/zh-Hans.lproj/NaverAuth.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zoVibwgo2Gv8F5E/HuPFcOpJNg/4cUO3hCpvXbr6GOM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverAuth.bundle/zh-Hant.lproj/NaverAuth.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QRVrVQXaFYAbEyot0KtqqHvuoHoTMpORIpbuN3RETP8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/NaverThirdPartyLogin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GZ+XwSqwShb4PmeYk64AvQvM7nvPQPrbls1ijaV7hTs=
+			</data>
+		</dict>
+		<key>Frameworks/NaverThirdPartyLogin.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nY3f7TTkt4ySEb9048iXBAuLCZ5roi+wHAeXiRrUYqE=
+			</data>
+		</dict>
 		<key>Frameworks/RecaptchaInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -2071,6 +2298,48 @@
 			<key>hash2</key>
 			<data>
 			6aquRnSKbxWAK/iBqBTmgopvk/k5AWiGjRiROHZ9apA=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_naver_login.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3OeCO/aorc6Y10Sc4QHRmwk5egtNZgvG8DUplT3mE1c=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_naver_login.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4Vzs76VQhMHmZGsNA/FYjSu7M2DkqQZYk4dXf2ALypU=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_naver_login.framework/flutter_naver_login</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t7vzXaRQnMYvD4/FOlreLSZ4KrQ3WaynrZN/18Y+8JM=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_web_auth.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ns8K+m1LHjGckjVcKLs9Dc3I61adSlu99eJJsNPryUQ=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_web_auth.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			amMO2LjlZBMEYEAv5PDrlfPiPsryRIEdv5+MQpqftNc=
+			</data>
+		</dict>
+		<key>Frameworks/flutter_web_auth.framework/flutter_web_auth</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yNOAhqxHRR8Div1WtF+YQl5CzFOkPYYQg8db8py1ArM=
 			</data>
 		</dict>
 		<key>Frameworks/kakao_flutter_sdk_common.framework/Info.plist</key>
@@ -2148,6 +2417,62 @@
 			<key>hash2</key>
 			<data>
 			BWQouTi9VwGKYAGdFcPB7i+nJ/I2h1mLu9k0hIsYCxo=
+			</data>
+		</dict>
+		<key>Frameworks/uni_links.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tawsNwXbOknriPhHf+R+x76prLzDAgjF7MIx+X8Wwrc=
+			</data>
+		</dict>
+		<key>Frameworks/uni_links.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZHLSRFUs+4WelJ3mF0dT8ltTHs3a60jQANOHM2Grq+I=
+			</data>
+		</dict>
+		<key>Frameworks/uni_links.framework/uni_links</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cY9wpblRzs4vFMhelEsPkXijx2uK0R7QsI2gm+sEChc=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dzY6Q7xy+NWvIDc8aWghKx1RtAWnwQ/abB5v2y00h+E=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gO+qn74pSKyPwiVwZ5pLCtK+BmDZQA4VgF2GTPbdNNo=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			exk56dKBAn98oSxaQFUKwAKtTdsZndcr1gLdCSV967I=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lk1RUpQVyFEFECd/gDdUCgli3mlNganmiyQZcxMl61c=
+			</data>
+		</dict>
+		<key>Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
 			</data>
 		</dict>
 		<key>Frameworks/webview_flutter_wkwebview.framework/Info.plist</key>

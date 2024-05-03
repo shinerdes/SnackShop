@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 
 class AssetRoundedButton extends StatelessWidget {
-  const AssetRoundedButton(
-      {super.key,
-      this.icon = "",
-      this.colour = Colors.black,
-      required this.onPressed,
-      this.title = "",
-      this.height = 42.0,
-      this.fontsize = 15.0});
+  const AssetRoundedButton({
+    super.key,
+    this.icon = "",
+    this.colour = Colors.black,
+    required this.onPressed,
+    this.title = "",
+    this.height = 42.0,
+    this.fontsize = 15.0,
+    this.assetHeight = 30.0,
+    this.assetwidth = 30.0,
+  });
 
   final String icon;
   final Color colour;
@@ -16,6 +19,8 @@ class AssetRoundedButton extends StatelessWidget {
   final Function onPressed;
   final double fontsize;
   final double height;
+  final double assetHeight;
+  final double assetwidth;
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +39,9 @@ class AssetRoundedButton extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(icon, width: 30, height: 30, fit: BoxFit.cover),
+              Image.asset(icon,
+                  width: assetwidth, height: assetHeight, fit: BoxFit.cover),
+              const SizedBox(width: 5.0),
               Text(
                 title,
                 style: TextStyle(

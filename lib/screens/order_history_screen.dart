@@ -107,24 +107,24 @@ toDate(String date) {
   return outDate;
 }
 
-Future<List<dynamic>> readChild2(String order) async {
-  final ref = FirebaseDatabase.instance.ref();
-  final snapshot = await ref
-      .child(FirebaseAuth.instance.currentUser!.uid)
-      .child('order')
-      .child(order)
-      .get();
+// Future<List<dynamic>> readChild2(String order) async {
+//   final ref = FirebaseDatabase.instance.ref();
+//   final snapshot = await ref
+//       .child(FirebaseAuth.instance.currentUser!.uid)
+//       .child('order')
+//       .child(order)
+//       .get();
 
-  List data2 = [];
-  if (snapshot.exists) {
-    Map<dynamic, dynamic> toMap = snapshot.value as Map<dynamic, dynamic>;
-    toMap.remove('buy');
-    data2.add(toMap);
-    return data2;
-  } else {
-    return List.empty();
-  }
-}
+//   List data2 = [];
+//   if (snapshot.exists) {
+//     Map<dynamic, dynamic> toMap = snapshot.value as Map<dynamic, dynamic>;
+//     toMap.remove('buy');
+//     data2.add(toMap);
+//     return data2;
+//   } else {
+//     return List.empty();
+//   }
+// }
 
 
 /*

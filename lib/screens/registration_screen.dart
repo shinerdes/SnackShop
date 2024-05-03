@@ -117,34 +117,38 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     ),
                     RoundedButton(
                       onPressed: () async {
-                        try {
-                          setState(() {
-                            showSpinner = true;
-                          });
-
+                        if (email.contains("naver.com") != true) {
                           try {
-                            final newUser =
-                                await _auth.createUserWithEmailAndPassword(
-                                    email: email, password: password);
-
-                            FirebaseDatabase.instance
-                                .ref()
-                                .child(FirebaseAuth.instance.currentUser!.uid)
-                                .set({"email": email});
-
                             setState(() {
-                              showSpinner = false;
+                              showSpinner = true;
                             });
 
-                            Navigator.pushNamedAndRemoveUntil(
-                                context, TabBarScreen.id, (route) => false);
-                          } on FirebaseAuthException catch (e) {
-                            debugPrint("Exception : ${e.message}");
-                            debugPrint("Exception : ${e.code}");
-                            _showdialog(context);
+                            try {
+                              final newUser =
+                                  await _auth.createUserWithEmailAndPassword(
+                                      email: email, password: password);
+
+                              FirebaseDatabase.instance
+                                  .ref()
+                                  .child(FirebaseAuth.instance.currentUser!.uid)
+                                  .set({"email": email});
+
+                              setState(() {
+                                showSpinner = false;
+                              });
+
+                              Navigator.pushNamedAndRemoveUntil(
+                                  context, TabBarScreen.id, (route) => false);
+                            } on FirebaseAuthException catch (e) {
+                              debugPrint("Exception : ${e.message}");
+                              debugPrint("Exception : ${e.code}");
+                              _showdialog(context);
+                            }
+                          } catch (e) {
+                            print(e);
                           }
-                        } catch (e) {
-                          print(e);
+                        } else {
+                          _showdialog2(context);
                         }
                       },
                       title: 'Register',
@@ -172,6 +176,23 @@ Future<dynamic> _showdialog(BuildContext context) {
     builder: (BuildContext context) => AlertDialog(
       title: const Text('등록실패'),
       content: const Text('비밀번호는 6자리 이상'),
+      actions: [
+        ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+            child: const Text('확인')),
+      ],
+    ),
+  );
+}
+
+Future<dynamic> _showdialog2(BuildContext context) {
+  return showDialog(
+    context: context,
+    builder: (BuildContext context) => AlertDialog(
+      title: const Text('등록실패'),
+      content: const Text('네이버 계정 불가'),
       actions: [
         ElevatedButton(
             onPressed: () {

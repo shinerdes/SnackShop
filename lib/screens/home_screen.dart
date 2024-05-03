@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:snack_shop/components/rounded_asset_button.dart';
 
 import 'package:snack_shop/data/snack_data.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -136,10 +137,19 @@ class _HomeScreen extends State<HomeScreen> {
                 width: MediaQuery.of(context).size.width,
                 height: 20,
               ),
-              Text(
-                '이메일: ${_auth.currentUser!.email}',
-                style:
-                    const TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
+              Row(
+                children: [
+                  const Icon(
+                    Icons.emoji_people_outlined,
+                    size: 40.0,
+                  ),
+                  const SizedBox(width: 5.0),
+                  Text(
+                    '${_auth.currentUser!.email}',
+                    style: const TextStyle(
+                        fontWeight: FontWeight.bold, fontSize: 25),
+                  ),
+                ],
               ),
               SizedBox(
                 width: MediaQuery.of(context).size.width,
@@ -171,6 +181,14 @@ class _HomeScreen extends State<HomeScreen> {
                   viewportFraction: 0.8,
                 ),
               ),
+              AssetRoundedButton(
+                title: " 농심몰",
+                onPressed: () {},
+                icon: 'assets/images/nongsim.png',
+                colour: Colors.black,
+                assetHeight: 30.0,
+                assetwidth: 30.0,
+              )
             ],
           ),
         ),

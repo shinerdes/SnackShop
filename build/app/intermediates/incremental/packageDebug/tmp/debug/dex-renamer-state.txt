@@ -1,4 +1,4 @@
-#Wed Feb 28 16:53:53 KST 2024
+#Sat Apr 13 19:56:05 KST 2024
 base.0=/Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
 base.2=/Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

@@ -13,6 +13,7 @@
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <queries>
         <package android:name="com.kakao.talk" />
@@ -29,10 +30,22 @@
 
             <data android:scheme="https" />
         </intent>
+        <!-- 네이버앱 : 로그인, 스킴로그인 -->
+        <package android:name="com.nhn.android.search" /> <!-- 커스텀탭 로그인 -->
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+
+        <package android:name="com.android.chrome" />
     </queries>
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission
+        android:name="com.example.snack_shop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.snack_shop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="android.app.Application"
@@ -64,6 +77,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="yournaverauthcallbackscheme" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity"
@@ -90,16 +111,25 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <meta-data
+            android:name="com.naver.sdk.clientId"
+            android:value="@string/client_id" />
+        <meta-data
+            android:name="com.naver.sdk.clientSecret"
+            android:value="@string/client_secret" />
+        <meta-data
+            android:name="com.naver.sdk.clientName"
+            android:value="@string/client_name" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:directBootAware="true"
             android:exported="false" >
             <meta-data
-                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
@@ -136,6 +166,10 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
+        <activity
+            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
             android:name="com.kakao.sdk.flutter.TalkAuthCodeActivity"
             android:configChanges="orientation|screenSize|keyboardHidden|uiMode"
@@ -181,6 +215,38 @@
                     android:host="firebase.auth"
                     android:path="/"
                     android:scheme="recaptcha" />
+            </intent-filter>
+        </activity> <!-- <activity -->
+        <!-- android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity" -->
+        <!-- android:configChanges="orientation|screenSize" -->
+        <!-- android:theme="@style/Theme.AppCompat.Light.Dialog" /> -->
+        <activity
+            android:name="com.navercorp.nid.oauth.NidOAuthBridgeActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" /> <!-- <activity -->
+        <!-- android:name="com.navercorp.nid.oauth.activity.NidOAuthWebViewActivity" -->
+        <!-- android:configChanges="orientation|screenSize" -->
+        <!-- android:screenOrientation="behind" -->
+        <!-- android:label="OAuth2.0 by WebView" -->
+        <!-- android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/> -->
+        <activity
+            android:name="com.navercorp.nid.oauth.activity.NidOAuthCustomTabActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:label="OAuth2.0 by Custom tabs"
+            android:launchMode="singleTask"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Intent URL 에서 로그인 액티비티를 실행하기 위해 설정 -->
+                <data
+                    android:host="authorize"
+                    android:path="/"
+                    android:scheme="naver3rdpartylogin" />
             </intent-filter>
         </activity>
 

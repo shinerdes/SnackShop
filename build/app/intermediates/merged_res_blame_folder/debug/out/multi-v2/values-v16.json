@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.snack_shop.app-mergeDebugResources-18:/values-v16/values-v16.xml",
+            "outputFile": "com.example.snack_shop.app-mergeDebugResources-28:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/shinerdes/.gradle/caches/transforms-3/578be22e03f3f9159468b1855ba89f47/transformed/core-1.6.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/shinerdes/.gradle/caches/transforms-3/06fa1449095f04be80cdba17bfd91cd9/transformed/appcompat-1.0.2/res/values-v16/values-v16.xml",
+                    "source": "/Users/shinerdes/.gradle/caches/transforms-3/b96a1db3a8d3444490ada853d194612a/transformed/appcompat-1.3.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/shinerdes/.gradle/caches/transforms-3/79b74904fb62028e8b49d82444e5dead/transformed/core-1.10.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
