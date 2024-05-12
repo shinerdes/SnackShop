@@ -4,6 +4,7 @@ import 'package:snack_shop/components/rounded_asset_button.dart';
 
 import 'package:snack_shop/data/snack_data.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String id = 'home_screen';
@@ -183,7 +184,9 @@ class _HomeScreen extends State<HomeScreen> {
               ),
               AssetRoundedButton(
                 title: " 농심몰",
-                onPressed: () {},
+                onPressed: () {
+                  launchUrl(Uri.parse('https://nongshimmall.com/'));
+                },
                 icon: 'assets/images/nongsim.png',
                 colour: Colors.black,
                 assetHeight: 30.0,

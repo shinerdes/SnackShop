@@ -3,8 +3,6 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:snack_shop/components/orderHistoryContainer.dart';
 
-import 'package:snack_shop/screens/order_history_detail_screen.dart';
-
 class OrderHistoryScreen extends StatefulWidget {
   const OrderHistoryScreen({super.key});
 
@@ -13,6 +11,8 @@ class OrderHistoryScreen extends StatefulWidget {
   @override
   State<OrderHistoryScreen> createState() => _OrderHistoryScreenState();
 }
+
+// time - price - 물품 갯수
 
 class _OrderHistoryScreenState extends State<OrderHistoryScreen> {
   @override
@@ -50,7 +50,14 @@ class _OrderHistoryScreenState extends State<OrderHistoryScreen> {
                       height: 2,
                       child: const ColoredBox(color: Colors.black),
                     ),
-                    ListView.builder(
+                    GridView.builder(
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                        mainAxisSpacing: 10,
+                        crossAxisSpacing: 6,
+                        childAspectRatio: 4 / 5,
+                      ),
                       shrinkWrap: true,
                       itemCount: snapshot.data?.length ?? 0,
                       itemBuilder: (BuildContext context, int index) =>
@@ -125,7 +132,6 @@ toDate(String date) {
 //     return List.empty();
 //   }
 // }
-
 
 /*
 
