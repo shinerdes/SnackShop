@@ -16,71 +16,81 @@ class _SettingsScreen extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.symmetric(
-          vertical: 10,
-          horizontal: 15,
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
+      body: SafeArea(
+        child: Container(
+          margin: const EdgeInsets.symmetric(
+            vertical: 10,
+            horizontal: 15,
+          ),
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'Snack',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                Row(
+                  children: [
+                    const Text(
+                      'Snack',
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                    ),
+                    Hero(
+                      tag: 'logo',
+                      child: SizedBox(
+                        height: 50.0,
+                        child: Image.asset('assets/images/snack.png',
+                            width: 50, height: 50, fit: BoxFit.fill),
+                      ),
+                    ),
+                    const Text(
+                      'Shop',
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                    ),
+                  ],
                 ),
-                Hero(
-                  tag: 'logo',
-                  child: SizedBox(
-                    height: 50.0,
-                    child: Image.asset('assets/images/snack.png',
-                        width: 50, height: 50, fit: BoxFit.fill),
-                  ),
+                SizedBox(
+                  width: MediaQuery.of(context).size.width,
+                  height: 2,
+                  child: const ColoredBox(color: Colors.black),
                 ),
-                const Text(
-                  'Shop',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
-                ),
+                const SizedBox(height: 10),
+
+                buildGrid(context),
+
+                const SizedBox(height: 10),
+
+                // Expanded(
+                //   child: ListView(
+                //     children: <Widget>[
+                //       Card(
+                //         child: ListTile(
+                //           leading: const Icon(Icons.receipt_outlined),
+                //           title: const Text('주문내역'),
+                //           onTap: () {
+                //             Navigator.push(
+                //                     context,
+                //                     MaterialPageRoute(
+                //                         builder: (context) =>
+                //                             const OrderHistoryScreen()))
+                //                 .then((value) {});
+                //           },
+                //         ),
+                //       ),
+                //       Card(
+                //         child: ListTile(
+                //           leading: const Icon(Icons.logout_outlined),
+                //           title: const Text('로그아웃'),
+                //           onTap: () {
+                //             _showdialog(context);
+                //           },
+                //         ),
+                //       ),
+                //     ],
+                //   ),
+                // ),
               ],
             ),
-            SizedBox(
-              width: MediaQuery.of(context).size.width,
-              height: 2,
-              child: const ColoredBox(color: Colors.black),
-            ),
-            const SizedBox(height: 10),
-            SingleChildScrollView(child: Expanded(child: buildGrid(context))),
-            // Expanded(
-            //   child: ListView(
-            //     children: <Widget>[
-            //       Card(
-            //         child: ListTile(
-            //           leading: const Icon(Icons.receipt_outlined),
-            //           title: const Text('주문내역'),
-            //           onTap: () {
-            //             Navigator.push(
-            //                     context,
-            //                     MaterialPageRoute(
-            //                         builder: (context) =>
-            //                             const OrderHistoryScreen()))
-            //                 .then((value) {});
-            //           },
-            //         ),
-            //       ),
-            //       Card(
-            //         child: ListTile(
-            //           leading: const Icon(Icons.logout_outlined),
-            //           title: const Text('로그아웃'),
-            //           onTap: () {
-            //             _showdialog(context);
-            //           },
-            //         ),
-            //       ),
-            //     ],
-            //   ),
-            // ),
-          ],
+          ),
         ),
       ),
     );

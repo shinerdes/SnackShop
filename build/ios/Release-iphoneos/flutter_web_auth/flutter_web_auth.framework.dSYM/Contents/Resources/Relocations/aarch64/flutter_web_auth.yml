@@ -1,0 +1,86 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shinerdes/Desktop/Flutter_SnackShop/snack_shop/build/ios/Release-iphoneos/flutter_web_auth/flutter_web_auth.framework/flutter_web_auth'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5D971, size: 0x8, addend: 0x0, symName: _flutter_web_authVersionString, symObjAddr: 0x0, symBinAddr: 0x9BB0, symSize: 0x0 }
+  - { offsetInCU: 0x6A, offset: 0x5D9A7, size: 0x8, addend: 0x0, symName: _flutter_web_authVersionNumber, symObjAddr: 0x30, symBinAddr: 0x9BE0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5D9E4, size: 0x8, addend: 0x0, symName: '+[FlutterWebAuthPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x99, offset: 0x5DA56, size: 0x8, addend: 0x0, symName: '+[FlutterWebAuthPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x4F, offset: 0x5DB12, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginC8register4withySo0eH9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x4 }
+  - { offsetInCU: 0x63, offset: 0x5DB26, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginCACycfC', symObjAddr: 0x4, symBinAddr: 0x4010, symSize: 0x20 }
+  - { offsetInCU: 0x86, offset: 0x5DB49, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginC8register4withySo0eH9Registrar_p_tFZTo', symObjAddr: 0x24, symBinAddr: 0x4030, symSize: 0x30 }
+  - { offsetInCU: 0xB8, offset: 0x5DB7B, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginC6handle_6resultySo0E10MethodCallC_yypSgctF', symObjAddr: 0x54, symBinAddr: 0x4060, symSize: 0x9B8 }
+  - { offsetInCU: 0x315, offset: 0x5DDD8, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginC6handle_6resultySo0E10MethodCallC_yypSgctFy10Foundation3URLVSg_s5Error_pSgtcfU_', symObjAddr: 0xA0C, symBinAddr: 0x4A18, symSize: 0x474 }
+  - { offsetInCU: 0x438, offset: 0x5DEFB, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginC6handle_6resultySo0E10MethodCallC_yypSgctFTo', symObjAddr: 0xE80, symBinAddr: 0x4E8C, symSize: 0x78 }
+  - { offsetInCU: 0x46A, offset: 0x5DF2D, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginCACycfc', symObjAddr: 0xFD0, symBinAddr: 0x4FDC, symSize: 0x30 }
+  - { offsetInCU: 0x4A5, offset: 0x5DF68, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginCACycfcTo', symObjAddr: 0x1000, symBinAddr: 0x500C, symSize: 0x3C }
+  - { offsetInCU: 0x4E0, offset: 0x5DFA3, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginCfD', symObjAddr: 0x103C, symBinAddr: 0x5048, symSize: 0x30 }
+  - { offsetInCU: 0x51E, offset: 0x5DFE1, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginC8register4withySo0eH9Registrar_p_tFZTf4nd_n', symObjAddr: 0x195C, symBinAddr: 0x5968, symSize: 0xD4 }
+  - { offsetInCU: 0x5B1, offset: 0x5E074, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginC6handle_6resultySo0E10MethodCallC_yypSgctF015$syXlSgIeyBy_ypO7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x1CA8, symBinAddr: 0x5CB4, symSize: 0xCC0 }
+  - { offsetInCU: 0x87E, offset: 0x5E341, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0xEF8, symBinAddr: 0x4F04, symSize: 0xD8 }
+  - { offsetInCU: 0x892, offset: 0x5E355, size: 0x8, addend: 0x0, symName: '_$sSo21FlutterViewControllerC16flutter_web_authE18presentationAnchor3forSo8UIWindowCSo26ASWebAuthenticationSessionC_tF', symObjAddr: 0x106C, symBinAddr: 0x5078, symSize: 0x68 }
+  - { offsetInCU: 0x90B, offset: 0x5E3CE, size: 0x8, addend: 0x0, symName: '_$sSo21FlutterViewControllerC16flutter_web_authE18presentationAnchor3forSo8UIWindowCSo26ASWebAuthenticationSessionC_tFTo', symObjAddr: 0x10D4, symBinAddr: 0x50E0, symSize: 0xA0 }
+  - { offsetInCU: 0x974, offset: 0x5E437, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgs5Error_pSgIegng_So5NSURLCSgSo7NSErrorCSgIeyByy_TR', symObjAddr: 0x1174, symBinAddr: 0x5180, symSize: 0xF8 }
+  - { offsetInCU: 0x9AD, offset: 0x5E470, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1818, symBinAddr: 0x5824, symSize: 0x64 }
+  - { offsetInCU: 0x9FA, offset: 0x5E4BD, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x187C, symBinAddr: 0x5888, symSize: 0xE0 }
+  - { offsetInCU: 0xA39, offset: 0x5E4FC, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1A30, symBinAddr: 0x5A3C, symSize: 0x40 }
+  - { offsetInCU: 0xA4D, offset: 0x5E510, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x1A70, symBinAddr: 0x5A7C, symSize: 0x48 }
+  - { offsetInCU: 0xA61, offset: 0x5E524, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x1B20, symBinAddr: 0x5B2C, symSize: 0x20 }
+  - { offsetInCU: 0xA75, offset: 0x5E538, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x1B48, symBinAddr: 0x5B54, symSize: 0x10 }
+  - { offsetInCU: 0xA89, offset: 0x5E54C, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x1B58, symBinAddr: 0x5B64, symSize: 0x8 }
+  - { offsetInCU: 0xA9D, offset: 0x5E560, size: 0x8, addend: 0x0, symName: '_$sSo12FlutterErrorC16flutter_web_authE30aquireRootViewControllerFailed33_36F6391478878E68C4839F7D6FD4DE64LLABvgZTf4d_n', symObjAddr: 0x1B60, symBinAddr: 0x5B6C, symSize: 0xA8 }
+  - { offsetInCU: 0xAD1, offset: 0x5E594, size: 0x8, addend: 0x0, symName: '_$sypSgWOd', symObjAddr: 0x1C40, symBinAddr: 0x5C4C, symSize: 0x48 }
+  - { offsetInCU: 0xAE5, offset: 0x5E5A8, size: 0x8, addend: 0x0, symName: '_$s16flutter_web_auth25SwiftFlutterWebAuthPluginCMa', symObjAddr: 0x1C88, symBinAddr: 0x5C94, symSize: 0x20 }
+  - { offsetInCU: 0xB04, offset: 0x5E5C7, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x298C, symBinAddr: 0x6998, symSize: 0x8 }
+  - { offsetInCU: 0xB18, offset: 0x5E5DB, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x2994, symBinAddr: 0x69A0, symSize: 0x24 }
+  - { offsetInCU: 0xB2C, offset: 0x5E5EF, size: 0x8, addend: 0x0, symName: '_$sSo21SFAuthenticationErrorV10Foundation01_B12CodeProtocolSCSQWb', symObjAddr: 0x2AA4, symBinAddr: 0x6AB0, symSize: 0x2C }
+  - { offsetInCU: 0xB40, offset: 0x5E603, size: 0x8, addend: 0x0, symName: '_$sSo21SFAuthenticationErrorV10Foundation01_B12CodeProtocolSC01_B4TypeAcDP_AC21_BridgedStoredNSErrorPWT', symObjAddr: 0x2AD0, symBinAddr: 0x6ADC, symSize: 0x2C }
+  - { offsetInCU: 0xB54, offset: 0x5E617, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomF0PWb', symObjAddr: 0x2B10, symBinAddr: 0x6B1C, symSize: 0x2C }
+  - { offsetInCU: 0xB68, offset: 0x5E62B, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableB0PWb', symObjAddr: 0x2B3C, symBinAddr: 0x6B48, symSize: 0x2C }
+  - { offsetInCU: 0xB7C, offset: 0x5E63F, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation21_BridgedStoredNSErrorSCSHWb', symObjAddr: 0x2B68, symBinAddr: 0x6B74, symSize: 0x2C }
+  - { offsetInCU: 0xB90, offset: 0x5E653, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC01_bG8ProtocolPWT', symObjAddr: 0x2B94, symBinAddr: 0x6BA0, symSize: 0x2C }
+  - { offsetInCU: 0xBA4, offset: 0x5E667, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SYWT', symObjAddr: 0x2BC0, symBinAddr: 0x6BCC, symSize: 0x2C }
+  - { offsetInCU: 0xBB8, offset: 0x5E67B, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthIntegerPWT', symObjAddr: 0x2BEC, symBinAddr: 0x6BF8, symSize: 0x4 }
+  - { offsetInCU: 0xBCC, offset: 0x5E68F, size: 0x8, addend: 0x0, symName: '_$sS2is17FixedWidthIntegersWl', symObjAddr: 0x2BF0, symBinAddr: 0x6BFC, symSize: 0x44 }
+  - { offsetInCU: 0xBE0, offset: 0x5E6A3, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeVSHSCSQWb', symObjAddr: 0x2C34, symBinAddr: 0x6C40, symSize: 0x2C }
+  - { offsetInCU: 0xBF4, offset: 0x5E6B7, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation021_ObjectiveCBridgeableB0SCs0B0PWb', symObjAddr: 0x2C60, symBinAddr: 0x6C6C, symSize: 0x2C }
+  - { offsetInCU: 0xC08, offset: 0x5E6CB, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation13CustomNSErrorSCs0B0PWb', symObjAddr: 0x2C8C, symBinAddr: 0x6C98, symSize: 0x2C }
+  - { offsetInCU: 0xC1C, offset: 0x5E6DF, size: 0x8, addend: 0x0, symName: '_$sSo35ASWebAuthenticationSessionErrorCodeV10Foundation01_dE8ProtocolSCSQWb', symObjAddr: 0x2CB8, symBinAddr: 0x6CC4, symSize: 0x2C }
+  - { offsetInCU: 0xC30, offset: 0x5E6F3, size: 0x8, addend: 0x0, symName: '_$sSo35ASWebAuthenticationSessionErrorCodeV10Foundation01_dE8ProtocolSC01_D4TypeAcDP_AC21_BridgedStoredNSErrorPWT', symObjAddr: 0x2CE4, symBinAddr: 0x6CF0, symSize: 0x2C }
+  - { offsetInCU: 0xC44, offset: 0x5E707, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomI0PWb', symObjAddr: 0x2D68, symBinAddr: 0x6D74, symSize: 0x2C }
+  - { offsetInCU: 0xC58, offset: 0x5E71B, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableD0PWb', symObjAddr: 0x2D94, symBinAddr: 0x6DA0, symSize: 0x2C }
+  - { offsetInCU: 0xC6C, offset: 0x5E72F, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCSHWb', symObjAddr: 0x2DC0, symBinAddr: 0x6DCC, symSize: 0x2C }
+  - { offsetInCU: 0xC80, offset: 0x5E743, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_AC01_dE8ProtocolPWT', symObjAddr: 0x2DEC, symBinAddr: 0x6DF8, symSize: 0x2C }
+  - { offsetInCU: 0xC94, offset: 0x5E757, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_SYWT', symObjAddr: 0x2E18, symBinAddr: 0x6E24, symSize: 0x2C }
+  - { offsetInCU: 0xCA8, offset: 0x5E76B, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0E0AcDP_8RawValueSYs17FixedWidthIntegerPWT', symObjAddr: 0x2E44, symBinAddr: 0x6E50, symSize: 0x4 }
+  - { offsetInCU: 0xCBC, offset: 0x5E77F, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeVSHSCSQWb', symObjAddr: 0x2E48, symBinAddr: 0x6E54, symSize: 0x2C }
+  - { offsetInCU: 0xCD0, offset: 0x5E793, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation021_ObjectiveCBridgeableD0SCs0D0PWb', symObjAddr: 0x2E74, symBinAddr: 0x6E80, symSize: 0x2C }
+  - { offsetInCU: 0xCE4, offset: 0x5E7A7, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation13CustomNSErrorSCs0D0PWb', symObjAddr: 0x2EA0, symBinAddr: 0x6EAC, symSize: 0x2C }
+  - { offsetInCU: 0xD69, offset: 0x5E82C, size: 0x8, addend: 0x0, symName: '_$sSo21SFAuthenticationErrorVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x15D0, symBinAddr: 0x55DC, symSize: 0x14 }
+  - { offsetInCU: 0xDAF, offset: 0x5E872, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeVs0B0SCsACP9_userInfoyXlSgvgTW', symObjAddr: 0x177C, symBinAddr: 0x5788, symSize: 0x4 }
+  - { offsetInCU: 0xEA8, offset: 0x5E96B, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation13CustomNSErrorSCAcDP11errorDomainSSvgZTW', symObjAddr: 0x127C, symBinAddr: 0x5288, symSize: 0x10 }
+  - { offsetInCU: 0xEC8, offset: 0x5E98B, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation13CustomNSErrorSCAcDP11errorDomainSSvgZTW', symObjAddr: 0x127C, symBinAddr: 0x5288, symSize: 0x10 }
+  - { offsetInCU: 0xF19, offset: 0x5E9DC, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation21_BridgedStoredNSErrorSCAcDP03_nsB0So0F0CvgTW', symObjAddr: 0x126C, symBinAddr: 0x5278, symSize: 0x8 }
+  - { offsetInCU: 0xF4A, offset: 0x5EA0D, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation21_BridgedStoredNSErrorSCAcDP03_nsB0xSo0F0C_tcfCTW', symObjAddr: 0x1274, symBinAddr: 0x5280, symSize: 0x8 }
+  - { offsetInCU: 0xF75, offset: 0x5EA38, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation13CustomNSErrorSCAcDP11errorDomainSSvgZTW', symObjAddr: 0x13CC, symBinAddr: 0x53D8, symSize: 0x10 }
+  - { offsetInCU: 0xF95, offset: 0x5EA58, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation13CustomNSErrorSCAcDP11errorDomainSSvgZTW', symObjAddr: 0x13CC, symBinAddr: 0x53D8, symSize: 0x10 }
+  - { offsetInCU: 0xFBC, offset: 0x5EA7F, size: 0x8, addend: 0x0, symName: '_$sSo21SFAuthenticationErrorVSYSCSY8rawValuexSg03RawD0Qz_tcfCTW', symObjAddr: 0x15B4, symBinAddr: 0x55C0, symSize: 0x10 }
+  - { offsetInCU: 0xFD8, offset: 0x5EA9B, size: 0x8, addend: 0x0, symName: '_$sSo21SFAuthenticationErrorVSYSCSY8rawValue03RawD0QzvgTW', symObjAddr: 0x15C4, symBinAddr: 0x55D0, symSize: 0xC }
+  - { offsetInCU: 0x119B, offset: 0x5EC5E, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation13CustomNSErrorSCAcDP05errorE0SivgTW', symObjAddr: 0x128C, symBinAddr: 0x5298, symSize: 0x40 }
+  - { offsetInCU: 0x11B7, offset: 0x5EC7A, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation13CustomNSErrorSCAcDP13errorUserInfoSDySSypGvgTW', symObjAddr: 0x12CC, symBinAddr: 0x52D8, symSize: 0x40 }
+  - { offsetInCU: 0x11D3, offset: 0x5EC96, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeV10Foundation021_ObjectiveCBridgeableD0SCAcDP15_bridgedNSErrorxSgSo0J0Ch_tcfCTW', symObjAddr: 0x130C, symBinAddr: 0x5318, symSize: 0x6C }
+  - { offsetInCU: 0x11EF, offset: 0x5ECB2, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeVSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x1378, symBinAddr: 0x5384, symSize: 0x50 }
+  - { offsetInCU: 0x120B, offset: 0x5ECCE, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation13CustomNSErrorSCAcDP9errorCodeSivgTW', symObjAddr: 0x13DC, symBinAddr: 0x53E8, symSize: 0x40 }
+  - { offsetInCU: 0x1227, offset: 0x5ECEA, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation13CustomNSErrorSCAcDP13errorUserInfoSDySSypGvgTW', symObjAddr: 0x141C, symBinAddr: 0x5428, symSize: 0x40 }
+  - { offsetInCU: 0x1243, offset: 0x5ED06, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeV10Foundation021_ObjectiveCBridgeableB0SCAcDP15_bridgedNSErrorxSgSo0G0Ch_tcfCTW', symObjAddr: 0x145C, symBinAddr: 0x5468, symSize: 0x6C }
+  - { offsetInCU: 0x126E, offset: 0x5ED31, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeVSHSCSH9hashValueSivgTW', symObjAddr: 0x14C8, symBinAddr: 0x54D4, symSize: 0x3C }
+  - { offsetInCU: 0x129F, offset: 0x5ED62, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeVSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x1504, symBinAddr: 0x5510, symSize: 0x50 }
+  - { offsetInCU: 0x12BB, offset: 0x5ED7E, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeVs0D0SCsACP7_domainSSvgTW', symObjAddr: 0x15E4, symBinAddr: 0x55F0, symSize: 0x40 }
+  - { offsetInCU: 0x12D7, offset: 0x5ED9A, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeVs0D0SCsACP5_codeSivgTW', symObjAddr: 0x1624, symBinAddr: 0x5630, symSize: 0x40 }
+  - { offsetInCU: 0x12F3, offset: 0x5EDB6, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeVs0D0SCsACP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x1664, symBinAddr: 0x5670, symSize: 0x40 }
+  - { offsetInCU: 0x130F, offset: 0x5EDD2, size: 0x8, addend: 0x0, symName: '_$sSC35ASWebAuthenticationSessionErrorCodeLeVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x16A4, symBinAddr: 0x56B0, symSize: 0x58 }
+  - { offsetInCU: 0x132B, offset: 0x5EDEE, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeVs0B0SCsACP7_domainSSvgTW', symObjAddr: 0x16FC, symBinAddr: 0x5708, symSize: 0x40 }
+  - { offsetInCU: 0x1347, offset: 0x5EE0A, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeVs0B0SCsACP5_codeSivgTW', symObjAddr: 0x173C, symBinAddr: 0x5748, symSize: 0x40 }
+  - { offsetInCU: 0x1363, offset: 0x5EE26, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeVs0B0SCsACP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0x1780, symBinAddr: 0x578C, symSize: 0x40 }
+  - { offsetInCU: 0x137F, offset: 0x5EE42, size: 0x8, addend: 0x0, symName: '_$sSC21SFAuthenticationErrorLeVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x17C0, symBinAddr: 0x57CC, symSize: 0x58 }
+...

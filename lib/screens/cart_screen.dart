@@ -42,268 +42,274 @@ class _CartScreenState extends State<CartScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: FutureBuilder(
-        future: readChild(),
-        builder: (context, snapshot) {
-          countArray = [];
-          imageArray = [];
-          nameArray = [];
-          priceArray = [];
+      body: SafeArea(
+        child: FutureBuilder(
+          future: readChild(),
+          builder: (context, snapshot) {
+            countArray = [];
+            imageArray = [];
+            nameArray = [];
+            priceArray = [];
 
-          if (snapshot.data != null && snapshot.data!.isNotEmpty) {
-            for (int i = 0; i < snapshot.data!.length; i++) {
-              countArray.add(snapshot.data![i].count);
-              nameArray.add(snapshot.data![i].name);
-              priceArray.add(snapshot.data![i].price);
-              imageArray.add(snapshot.data![i].image);
-            }
-            // print(countArray);
-            // print(nameArray);
-            // print(priceArray);
-            // print(imageArray);
-            return Container(
-              margin: const EdgeInsets.symmetric(
-                horizontal: 15,
-                vertical: 10,
-              ),
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      const Text(
-                        'Snack',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 30),
-                      ),
-                      Hero(
-                        tag: 'logo',
-                        child: SizedBox(
-                          height: 50.0,
-                          child: Image.asset('assets/images/snack.png',
-                              width: 50, height: 50, fit: BoxFit.fill),
-                        ),
-                      ),
-                      const Text(
-                        'Shop',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 30),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    width: MediaQuery.of(context).size.width,
-                    height: 2,
-                    child: const ColoredBox(color: Colors.black),
-                  ),
-                  Expanded(
-                    child: GridView.builder(
-                      itemCount: snapshot.data?.length ?? 0,
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 1, childAspectRatio: 1.7),
-                      itemBuilder: (context, index) {
-                        return Column(
-                          children: [
-                            Expanded(
-                              flex: 1,
-                              child: Row(
-                                children: [
-                                  Expanded(
-                                    flex: 9,
-                                    child: CartSnackContainer(
-                                      name: nameArray[index],
-                                      price: priceArray[index],
-                                      image: imageArray[index],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Expanded(
-                              flex: 1,
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.end,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: <Widget>[
-                                  Container(
-                                    width: 200,
-                                    padding: const EdgeInsets.all(10),
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                    ),
-                                    child: Row(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        InkWell(
-                                            onTap: () {
-                                              setState(() {
-                                                if (snapshot
-                                                        .data![index].count !=
-                                                    1) {
-                                                  dataUpdate(
-                                                      count: snapshot
-                                                              .data![index]
-                                                              .count -
-                                                          1,
-                                                      name: snapshot
-                                                          .data![index].image);
-                                                }
-                                              });
-                                            },
-                                            child: const Icon(
-                                              Icons.remove,
-                                              color: Colors.black,
-                                              size: 35,
-                                            )),
-                                        Container(
-                                          margin: const EdgeInsets.symmetric(
-                                              horizontal: 10),
-                                          padding: const EdgeInsets.symmetric(
-                                              horizontal: 10, vertical: 5),
-                                          decoration: BoxDecoration(
-                                            borderRadius:
-                                                BorderRadius.circular(3),
-                                          ),
-                                          child: Text(
-                                            '${countArray[index]}',
-                                            style: const TextStyle(
-                                                color: Colors.black,
-                                                fontSize: 35),
-                                          ),
-                                        ),
-                                        InkWell(
-                                            onTap: () {
-                                              setState(() {
-                                                if (snapshot
-                                                        .data![index].count !=
-                                                    99) {
-                                                  dataUpdate(
-                                                      count: snapshot
-                                                              .data![index]
-                                                              .count +
-                                                          1,
-                                                      name: snapshot
-                                                          .data![index].image);
-                                                }
-                                              });
-                                            },
-                                            child: const Icon(
-                                              Icons.add,
-                                              color: Colors.black,
-                                              size: 35,
-                                            )),
-                                      ],
-                                    ),
-                                  ),
-                                  Container(
-                                    padding: const EdgeInsets.only(right: 5.0),
-                                    child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.end,
-                                      children: [
-                                        InkWell(
-                                          child: const Text(
-                                            '삭제',
-                                            style: TextStyle(
-                                              color: Colors.black,
-                                              fontSize: 25,
-                                              decoration:
-                                                  TextDecoration.underline,
-                                            ),
-                                          ),
-                                          onTap: () {
-                                            setState(() {
-                                              dataDelete(
-                                                  name: snapshot
-                                                      .data![index].image);
-                                            });
-                                          },
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            SizedBox(
-                              width: MediaQuery.of(context).size.width,
-                              height: 1,
-                              child: const ColoredBox(color: Colors.black),
-                            ),
-                          ],
-                        );
-                      },
-                    ),
-                  ),
-                  RoundedButton(
-                    onPressed: () async {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => CheckoutScreen(
-                                    cost: sum(snapshot),
-                                  ))).then((value) {
-                        setState(() {});
-                      });
-                    },
-                    title: '총 ${sum(snapshot)}원 결제하기',
-                    colour: Colors.black,
-                    fontSize: 21.0,
-                    height: 62.0,
-                  ),
-                ],
-              ),
-            );
-          } else {
-            return Container(
-              margin: const EdgeInsets.symmetric(
-                horizontal: 15,
-                vertical: 10,
-              ),
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      const Text(
-                        'Snack',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 30),
-                      ),
-                      Image.asset('assets/images/snack.png',
-                          width: 50, height: 50, fit: BoxFit.fill),
-                      const Text(
-                        'Shop',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 30),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    width: MediaQuery.of(context).size.width,
-                    height: 2,
-                    child: const ColoredBox(color: Colors.black),
-                  ),
-                  const Expanded(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+            if (snapshot.data != null && snapshot.data!.isNotEmpty) {
+              for (int i = 0; i < snapshot.data!.length; i++) {
+                countArray.add(snapshot.data![i].count);
+                nameArray.add(snapshot.data![i].name);
+                priceArray.add(snapshot.data![i].price);
+                imageArray.add(snapshot.data![i].image);
+              }
+              // print(countArray);
+              // print(nameArray);
+              // print(priceArray);
+              // print(imageArray);
+              return Container(
+                margin: const EdgeInsets.symmetric(
+                  horizontal: 15,
+                  vertical: 10,
+                ),
+                child: Column(
+                  children: [
+                    Row(
                       children: [
-                        Icon(Icons.no_food, size: 100),
-                        SizedBox(height: 5.0),
-                        Text(
-                          '담겨있는 과자가 없습니다',
+                        const Text(
+                          'Snack',
                           style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 30.0),
+                              fontWeight: FontWeight.bold, fontSize: 30),
+                        ),
+                        Hero(
+                          tag: 'logo',
+                          child: SizedBox(
+                            height: 50.0,
+                            child: Image.asset('assets/images/snack.png',
+                                width: 50, height: 50, fit: BoxFit.fill),
+                          ),
+                        ),
+                        const Text(
+                          'Shop',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 30),
                         ),
                       ],
                     ),
-                  ),
-                ],
-              ),
-            );
-          }
-        },
+                    SizedBox(
+                      width: MediaQuery.of(context).size.width,
+                      height: 2,
+                      child: const ColoredBox(color: Colors.black),
+                    ),
+                    Expanded(
+                      child: GridView.builder(
+                        itemCount: snapshot.data?.length ?? 0,
+                        gridDelegate:
+                            const SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 1, childAspectRatio: 1.7),
+                        itemBuilder: (context, index) {
+                          return Column(
+                            children: [
+                              Expanded(
+                                flex: 1,
+                                child: Row(
+                                  children: [
+                                    Expanded(
+                                      flex: 9,
+                                      child: CartSnackContainer(
+                                        name: nameArray[index],
+                                        price: priceArray[index],
+                                        image: imageArray[index],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Expanded(
+                                flex: 1,
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.end,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: <Widget>[
+                                    Container(
+                                      width: 200,
+                                      padding: const EdgeInsets.all(10),
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(10),
+                                      ),
+                                      child: Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          InkWell(
+                                              onTap: () {
+                                                setState(() {
+                                                  if (snapshot
+                                                          .data![index].count !=
+                                                      1) {
+                                                    dataUpdate(
+                                                        count: snapshot
+                                                                .data![index]
+                                                                .count -
+                                                            1,
+                                                        name: snapshot
+                                                            .data![index]
+                                                            .image);
+                                                  }
+                                                });
+                                              },
+                                              child: const Icon(
+                                                Icons.remove,
+                                                color: Colors.black,
+                                                size: 35,
+                                              )),
+                                          Container(
+                                            margin: const EdgeInsets.symmetric(
+                                                horizontal: 10),
+                                            padding: const EdgeInsets.symmetric(
+                                                horizontal: 10, vertical: 5),
+                                            decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(3),
+                                            ),
+                                            child: Text(
+                                              '${countArray[index]}',
+                                              style: const TextStyle(
+                                                  color: Colors.black,
+                                                  fontSize: 35),
+                                            ),
+                                          ),
+                                          InkWell(
+                                              onTap: () {
+                                                setState(() {
+                                                  if (snapshot
+                                                          .data![index].count !=
+                                                      99) {
+                                                    dataUpdate(
+                                                        count: snapshot
+                                                                .data![index]
+                                                                .count +
+                                                            1,
+                                                        name: snapshot
+                                                            .data![index]
+                                                            .image);
+                                                  }
+                                                });
+                                              },
+                                              child: const Icon(
+                                                Icons.add,
+                                                color: Colors.black,
+                                                size: 35,
+                                              )),
+                                        ],
+                                      ),
+                                    ),
+                                    Container(
+                                      padding:
+                                          const EdgeInsets.only(right: 5.0),
+                                      child: Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.end,
+                                        children: [
+                                          InkWell(
+                                            child: const Text(
+                                              '삭제',
+                                              style: TextStyle(
+                                                color: Colors.black,
+                                                fontSize: 25,
+                                                decoration:
+                                                    TextDecoration.underline,
+                                              ),
+                                            ),
+                                            onTap: () {
+                                              setState(() {
+                                                dataDelete(
+                                                    name: snapshot
+                                                        .data![index].image);
+                                              });
+                                            },
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                width: MediaQuery.of(context).size.width,
+                                height: 1,
+                                child: const ColoredBox(color: Colors.black),
+                              ),
+                            ],
+                          );
+                        },
+                      ),
+                    ),
+                    RoundedButton(
+                      onPressed: () async {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => CheckoutScreen(
+                                      cost: sum(snapshot),
+                                    ))).then((value) {
+                          setState(() {});
+                        });
+                      },
+                      title: '총 ${sum(snapshot)}원 결제하기',
+                      colour: Colors.black,
+                      fontSize: 21.0,
+                      height: 62.0,
+                    ),
+                  ],
+                ),
+              );
+            } else {
+              return Container(
+                margin: const EdgeInsets.symmetric(
+                  horizontal: 15,
+                  vertical: 10,
+                ),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        const Text(
+                          'Snack',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 30),
+                        ),
+                        Image.asset('assets/images/snack.png',
+                            width: 50, height: 50, fit: BoxFit.fill),
+                        const Text(
+                          'Shop',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 30),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      width: MediaQuery.of(context).size.width,
+                      height: 2,
+                      child: const ColoredBox(color: Colors.black),
+                    ),
+                    const Expanded(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.no_food, size: 100),
+                          SizedBox(height: 5.0),
+                          Text(
+                            '담겨있는 과자가 없습니다',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, fontSize: 30.0),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            }
+          },
+        ),
       ),
     );
   }
