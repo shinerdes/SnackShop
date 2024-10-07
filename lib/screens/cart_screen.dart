@@ -101,7 +101,7 @@ class _CartScreenState extends State<CartScreen> {
                         itemCount: snapshot.data?.length ?? 0,
                         gridDelegate:
                             const SliverGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: 1, childAspectRatio: 1.7),
+                                crossAxisCount: 1, childAspectRatio: 1.8),
                         itemBuilder: (context, index) {
                           return Column(
                             children: [
@@ -120,117 +120,120 @@ class _CartScreenState extends State<CartScreen> {
                                   ],
                                 ),
                               ),
-                              Expanded(
-                                flex: 1,
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.end,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: <Widget>[
-                                    Container(
-                                      width: 200,
-                                      padding: const EdgeInsets.all(10),
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(10),
-                                      ),
-                                      child: Row(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.spaceBetween,
-                                        children: [
-                                          InkWell(
-                                              onTap: () {
-                                                setState(() {
-                                                  if (snapshot
-                                                          .data![index].count !=
-                                                      1) {
-                                                    dataUpdate(
-                                                        count: snapshot
-                                                                .data![index]
-                                                                .count -
-                                                            1,
-                                                        name: snapshot
-                                                            .data![index]
-                                                            .image);
-                                                  }
-                                                });
-                                              },
-                                              child: const Icon(
-                                                Icons.remove,
-                                                color: Colors.black,
-                                                size: 35,
-                                              )),
-                                          Container(
-                                            margin: const EdgeInsets.symmetric(
-                                                horizontal: 10),
-                                            padding: const EdgeInsets.symmetric(
-                                                horizontal: 10, vertical: 5),
-                                            decoration: BoxDecoration(
-                                              borderRadius:
-                                                  BorderRadius.circular(3),
-                                            ),
-                                            child: Text(
-                                              '${countArray[index]}',
-                                              style: const TextStyle(
-                                                  color: Colors.black,
-                                                  fontSize: 35),
-                                            ),
-                                          ),
-                                          InkWell(
-                                              onTap: () {
-                                                setState(() {
-                                                  if (snapshot
-                                                          .data![index].count !=
-                                                      99) {
-                                                    dataUpdate(
-                                                        count: snapshot
-                                                                .data![index]
-                                                                .count +
-                                                            1,
-                                                        name: snapshot
-                                                            .data![index]
-                                                            .image);
-                                                  }
-                                                });
-                                              },
-                                              child: const Icon(
-                                                Icons.add,
-                                                color: Colors.black,
-                                                size: 35,
-                                              )),
-                                        ],
-                                      ),
+                              Row(
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: <Widget>[
+                                  Container(
+                                    //color: Colors.red,
+                                    //width: 100,
+                                    padding: const EdgeInsets.all(10),
+                                    decoration: BoxDecoration(
+                                      //color: Colors.red,
+                                      borderRadius: BorderRadius.circular(10),
                                     ),
-                                    Container(
-                                      padding:
-                                          const EdgeInsets.only(right: 5.0),
-                                      child: Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.end,
-                                        children: [
-                                          InkWell(
-                                            child: const Text(
-                                              '삭제',
-                                              style: TextStyle(
-                                                color: Colors.black,
-                                                fontSize: 25,
-                                                decoration:
-                                                    TextDecoration.underline,
-                                              ),
-                                            ),
+                                    child: Row(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        InkWell(
                                             onTap: () {
                                               setState(() {
-                                                dataDelete(
-                                                    name: snapshot
-                                                        .data![index].image);
+                                                if (snapshot
+                                                        .data![index].count !=
+                                                    1) {
+                                                  dataUpdate(
+                                                      count: snapshot
+                                                              .data![index]
+                                                              .count -
+                                                          1,
+                                                      name: snapshot
+                                                          .data![index].image);
+                                                }
                                               });
                                             },
+                                            child: const Icon(
+                                              Icons.remove,
+                                              color: Colors.black,
+                                              size: 30,
+                                            )),
+                                        Container(
+                                          margin: const EdgeInsets.symmetric(
+                                              horizontal: 10),
+                                          padding: const EdgeInsets.symmetric(
+                                              horizontal: 10, vertical: 5),
+                                          decoration: BoxDecoration(
+                                            borderRadius:
+                                                BorderRadius.circular(3),
                                           ),
-                                        ],
-                                      ),
+                                          child: Text(
+                                            '${countArray[index]}',
+                                            style: const TextStyle(
+                                                color: Colors.black,
+                                                fontSize: 30),
+                                          ),
+                                        ),
+                                        InkWell(
+                                            onTap: () {
+                                              setState(() {
+                                                if (snapshot
+                                                        .data![index].count !=
+                                                    99) {
+                                                  dataUpdate(
+                                                      count: snapshot
+                                                              .data![index]
+                                                              .count +
+                                                          1,
+                                                      name: snapshot
+                                                          .data![index].image);
+                                                }
+                                              });
+                                            },
+                                            child: const Icon(
+                                              Icons.add,
+                                              color: Colors.black,
+                                              size: 30,
+                                            )),
+                                      ],
                                     ),
-                                  ],
-                                ),
+                                  ),
+                                  Container(
+                                    //color: Colors.blue,
+                                    padding: const EdgeInsets.only(right: 15.0),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.end,
+                                      children: [
+                                        InkWell(
+                                          child: const Icon(
+                                            Icons.remove_shopping_cart,
+                                            color: Colors.black,
+                                            size: 30,
+                                          ),
+
+                                          //const Text(
+                                          //   '삭제',
+                                          //   style: TextStyle(
+                                          //     color: Colors.black,
+                                          //     fontSize: 25,
+                                          //     // decoration:
+                                          //     //     TextDecoration.underline,
+                                          //   ),
+                                          // ),
+                                          onTap: () {
+                                            setState(() {
+                                              dataDelete(
+                                                  name: snapshot
+                                                      .data![index].image);
+                                            });
+                                          },
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
                               ),
                               SizedBox(
                                 width: MediaQuery.of(context).size.width,
@@ -380,6 +383,8 @@ Future<List<Cart>> readChild() async {
     Map<dynamic, dynamic> toMap = snapshot.value as Map<dynamic, dynamic>;
 
     List<Cart> data = toMap.values.map((e) => Cart.fromJson(e)).toList();
+
+    print(toMap.length);
     return data;
   } else {
     return List.empty();

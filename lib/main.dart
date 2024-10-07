@@ -4,7 +4,6 @@ import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 import 'package:snack_shop/firebase_options.dart';
 
 import 'package:snack_shop/screens/login_screen.dart';
-import 'package:snack_shop/screens/order_history_screen.dart';
 import 'package:snack_shop/screens/registration_screen.dart';
 import 'package:snack_shop/screens/tab_bar_screen.dart';
 import 'package:snack_shop/screens/welcome_screen.dart';

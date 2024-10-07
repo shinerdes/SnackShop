@@ -227,7 +227,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                         alignment: Alignment.centerRight,
                         height: 40,
                         child: Text(
-                          '₩${widget.cost}',
+                          '합계: ₩${widget.cost}',
                           style: const TextStyle(fontSize: 30),
                         ),
                       ),

@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:snack_shop/screens/tab_bar_screen.dart';
@@ -7,6 +8,8 @@ import '../constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
+
+//getx
 
 class RegistrationScreen extends StatefulWidget {
   const RegistrationScreen({super.key});
@@ -75,15 +78,17 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                                 width: 100, height: 100, fit: BoxFit.cover),
                           ),
                         ),
-                        const Text(
+                        const AutoSizeText(
                           ' Snack ',
+                          minFontSize: 18,
                           style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 40),
+                              fontWeight: FontWeight.bold, fontSize: 30),
                         ),
-                        const Text(
+                        const AutoSizeText(
                           'Shop',
+                          minFontSize: 18,
                           style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 40),
+                              fontWeight: FontWeight.bold, fontSize: 30),
                         ),
                       ],
                     ),

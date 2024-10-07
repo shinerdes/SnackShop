@@ -47,13 +47,13 @@ class TabBarScreen extends StatelessWidget {
                 )),
                 Tab(
                     icon: Icon(
-                  Icons.movie_outlined,
+                  Icons.settings_outlined,
                   size: 35,
                 )),
               ],
-              // indicatorColor: Colors.transparent, // indicator 없애기
-              // unselectedLabelColor: Colors.grey, // 선택되지 않은 tab 색
-              // labelColor: Colors.black, // 선택된 tab의 색
+              indicatorColor: Colors.transparent, // indicator 없애기
+              unselectedLabelColor: Colors.grey, // 선택되지 않은 tab 색
+              labelColor: Colors.black, // 선택된 tab의 색
             ),
           ),
           body: Container(

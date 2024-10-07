@@ -170,7 +170,7 @@ class _OrderHistoryDetailScreenState extends State<OrderHistoryDetailScreen> {
                           shrinkWrap: true,
                           gridDelegate:
                               const SliverGridDelegateWithFixedCrossAxisCount(
-                                  crossAxisCount: 1, childAspectRatio: 3),
+                                  crossAxisCount: 1, childAspectRatio: 2.5),
                           itemCount: snapshot.data?[1].length ?? 0,
                           itemBuilder: (context, index) {
                             return Column(

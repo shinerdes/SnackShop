@@ -1,12 +1,7 @@
-import 'dart:convert';
-
-import 'dart:math';
-
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_web_auth/flutter_web_auth.dart';
+
 import 'package:snack_shop/main.dart';
 
-import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -19,6 +14,7 @@ import 'package:snack_shop/screens/tab_bar_screen.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:uuid/uuid.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 
 enum LoginPlatform {
   facebook,
@@ -70,8 +66,8 @@ class _LoginScreenState extends State<LoginScreen> {
           },
           child: Scaffold(
             appBar: AppBar(
-              foregroundColor: Colors.black,
-              backgroundColor: Colors.white,
+              // foregroundColor: Colors.black,
+              // backgroundColor: Colors.white,
               elevation: 0,
               title: const Text(
                 'Login',
@@ -82,7 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
             ),
-            backgroundColor: Colors.white,
+            //backgroundColor: Colors.white,
             body: ModalProgressHUD(
               inAsyncCall: showSpinner,
               child: Padding(
@@ -104,15 +100,17 @@ class _LoginScreenState extends State<LoginScreen> {
                                     width: 100, height: 100, fit: BoxFit.cover),
                               ),
                             ),
-                            const Text(
+                            const AutoSizeText(
                               ' Snack ',
+                              minFontSize: 18,
                               style: TextStyle(
-                                  fontWeight: FontWeight.bold, fontSize: 40),
+                                  fontWeight: FontWeight.bold, fontSize: 30),
                             ),
-                            const Text(
+                            const AutoSizeText(
                               'Shop',
+                              minFontSize: 18,
                               style: TextStyle(
-                                  fontWeight: FontWeight.bold, fontSize: 40),
+                                  fontWeight: FontWeight.bold, fontSize: 30),
                             ),
                           ],
                         ),
