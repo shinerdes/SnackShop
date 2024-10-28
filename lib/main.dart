@@ -2,11 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 import 'package:snack_shop/firebase_options.dart';
-
-import 'package:snack_shop/screens/login_screen.dart';
-import 'package:snack_shop/screens/registration_screen.dart';
-import 'package:snack_shop/screens/tab_bar_screen.dart';
-import 'package:snack_shop/screens/welcome_screen.dart';
+import 'package:snack_shop/router.dart';
+import 'package:snack_shop/theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,14 +22,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      initialRoute: WelcomeScreen.id,
-      routes: {
-        WelcomeScreen.id: (context) => const WelcomeScreen(),
-        LoginScreen.id: (context) => const LoginScreen(),
-        RegistrationScreen.id: (context) => const RegistrationScreen(),
-        TabBarScreen.id: (context) => TabBarScreen(),
-      },
+    return MaterialApp.router(
+      title: "snackshop",
+      routerConfig: router,
+      theme: snackDefaultTheme,
+      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.light,
+      themeAnimationStyle: AnimationStyle(
+        curve: Curves.easeInCirc,
+        duration: const Duration(milliseconds: 350),
+      ),
     );
   }
 }

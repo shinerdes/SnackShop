@@ -10,19 +10,55 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		/FA3yZCONKPwhQcUol9gvGIgjeQ=
+		pRWMYRfepMOVf1GWLyYaiPngQ7A=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		gX7h9VZL9/so+6xgpwvLo9qj12w=
+		LqhAOE02Ef5z6uy0og3PmlQQgOU=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		vKJkVIcw+LGHFnKJGwrQwCREv68=
+		YawJdKKyg39xxUejL472u4s4ESQ=
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		SeSEmPyT5ZjCejz3gUK3DocM5IE=
+		tN5tToLG4an4MU6TUchmaFJ/Ye8=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-Black.ttf</key>
+		<data>
+		79069Aqthj0XfOy1hpje5NluXdI=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-Bold.ttf</key>
+		<data>
+		UBTulJUp77JdyNJVX7jUWG9D4Fg=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-ExtraBold.ttf</key>
+		<data>
+		f6j2fjp6N3NByAKEaBISEgUOtoE=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-ExtraLight.ttf</key>
+		<data>
+		5vXBkutUclUWaeF39VsOuubgPdE=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-Light.ttf</key>
+		<data>
+		FxQ2GlHOH9fwcAsWpzUCKUb1zSc=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-Medium.ttf</key>
+		<data>
+		aO++0Q4SKenJ7UnYxiCo/vh82gc=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-Regular.ttf</key>
+		<data>
+		9eJdEv8I/wWKzYpk1fm1+ckrnRc=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-SemiBold.ttf</key>
+		<data>
+		4kerNRoXl7GoH3pelFxBben3/ZE=
+		</data>
+		<key>flutter_assets/assets/fonts/Pretendard-Thin.ttf</key>
+		<data>
+		ytyIUW26rxngAJ8tDB42Mp/iXH8=
 		</data>
 		<key>flutter_assets/assets/images/.DS_Store</key>
 		<data>
@@ -122,7 +158,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		aJydTW38+t7zFj95P9V7mtm+6+I=
+		L8itA6d0Inpq5o1Q+ExGxf2wW+8=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -143,28 +179,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lhXSPMyIS4Qppw+LV2KugW4Vw4mykg5EKQ8/ms8mKL0=
+			s8oZ5BEUqcs6pBERhMf1DT/cP2msRzcvZe2HXltHF0o=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J2auTIHRsHEcmfYtjQSlsDLxR0ZUkQ0mvD07u5QtMI0=
+			qRBi7/Qy8pxuyU0Z7eu/NLZKzWmjaK/lNv5c6TK3HIM=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zX4DZFvESy3Ue3y2JvUcTsv1Whl6t3JBYotHrBZfviE=
+			+mydXCFg5WHoQA++lWtjn+kSTqYJZ+fzOWFD0Al9v5w=
 			</data>
 		</dict>
 		<key>flutter_assets/NOTICES.Z</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IDHI/x4YsKs/jhYIKfEjbDTzi3jqoZXZBOOMpts/Fqs=
+			cb+Ky8D6jx7h/nK6rTX8EO/toxrgF/i8KV7mr7lFb/g=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Cnwf1lpZn50l3oYMyDLqmsQMIHd14z60NEpGRzkqK10=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wWuIxnDSPoP6EXDJVMvEgi07ja08PN4V15ipS0PZeYU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-ExtraBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7tvSh3IYJCMjvf+BZoT39cMl5UroINW3juyaXlx+3vY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-ExtraLight.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BB+tHGpTIgjVLe8WV28NHdfxt3uTBsZX9pv2GfK2OMw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-Light.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G6c7IpVXVLue1rv3Z4QWr2R/kHBOkGRmH3kk2leNrT4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O65Xk3frjprEEstICevD3h2VbtdZlcHjRvDBMRBT9OI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bQr1JYmXrsc1Sm40D8IyW6MhxBDKSLOvhYyMPW6SoyQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XhxUhzKvcIcxAwZsFuE2m5qKhx8LOMMhodW8c+Q86i0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/fonts/Pretendard-Thin.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X2XP59mZNO5z3pg98mFUZmxlQY1zpi9jQRCUXy3cDK8=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/Jjolboksnack_BBQ_Flavor-detail.png</key>
@@ -332,7 +431,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rO03yXIH5Aw13ZFNHRoF2E15teAeCDtC/Vzj/B4Eo9c=
+			dGGRlj1x42guGU3wjXIROo992Wie4ZJD2jadoVC8ip4=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
